@@ -1,0 +1,193 @@
+/* * {
+    border: 1px solid black;
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* letter-spacing: 0.45px; */
+    /* width: 100%; */
+    overflow-x: hidden;
+}
+
+
+#hero-banner {
+    margin: 0;
+    padding: 2em 2em 2em;
+    background-color: rgb(171, 171, 217);
+    width: auto;
+    display: flex;
+    size-adjust: inherit;
+}
+
+#socials {
+    min-width: 100px;
+    padding-left: 2%;
+}
+
+#socials > a {
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 1000;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: white;   
+}
+
+#menu {
+    min-width: 100px;
+    padding-left: 65%;
+}
+
+#menu > a {
+    margin-left: 10px;
+    padding: 3px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#profile {
+    margin: 0;
+    padding: 1.75%;
+    padding-left: 45%;
+}
+
+#profile > img{
+    min-width: 100px;
+    border: solid white;
+    border-radius: 48%;
+    width: 150px;
+    align-items: center;
+}
+
+#message {
+    background-color: whitesmoke;
+    border:  1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    padding: 3%;
+    width: 50%;
+    height: 70%;
+    margin-left: 22%;
+}
+
+#message > p {
+    text-align: center;
+    /* padding-left: 22%; */
+    font-family: inherit;
+}
+
+.email-address {
+    text-decoration: None;
+    color: rgb(135, 135, 59);
+}
+
+#Reach-me{
+    font-weight: bold;
+    font-family: inherit;
+}
+
+#social-links {
+    display: flex;
+    padding: 5px;
+    padding-left: 18%;
+}
+
+#social-links > p{
+    padding: 10px;
+}
+
+#social-links > p > a {
+    color: rgb(135, 135, 59);
+}
+
+#message-me {
+    margin: 0;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email {
+    background-color: whitesmoke;
+    font-family: inherit;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 55.2%;
+    margin-left: 21%;
+}
+
+#message-box {
+    font-family: inherit;
+    height: 200px;
+    background-color: whitesmoke;
+    padding: 1.5%;
+    border:  1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    width: 55.2%;
+    margin-left: 21%;
+}
+
+
+#submit-button {
+    background-color: rgb(171, 171, 217);
+    border:  1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 58.6%;
+    margin-left: 21%;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#skirt {
+    padding: 0.01%;
+    background-color: whitesmoke;
+    border-top: transparent;
+}
+
+#skirt > p {
+    color: rgb(105, 91, 91);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: smaller;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px; 
+    width: 4%;
+    height: 60px;      
+    font-size: x-large;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px transparent;    
+    color: rgb(71, 71, 144);
+    font-weight: bolder;
+    border-radius: 2%;
+}
+
+#back-to-top:hover {
+    cursor: pointer;
+}

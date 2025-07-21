@@ -1,0 +1,277 @@
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* letter-spacing: 0.45px; */
+    /* width: 100%; */
+    overflow-x: hidden;
+}
+
+img {display: block;}
+
+#hero-banner {
+    margin: 0;
+    padding: 2em 2em 2em;
+    background-color: rgb(171, 171, 217);
+    width: auto;
+    display: flex;
+}
+
+#socials {
+    padding-left: 2%;
+}
+
+#socials > a {
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 1000;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: white;   
+}
+
+#menu {
+    padding-left: 65%;
+}
+
+#menu > a {
+    margin-left: 10px;
+    padding: 3px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#topic > h1 {
+    margin: 0;
+    padding: 2%;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    background-color:  rgb(66, 66, 144);
+    color: white;
+    position: relative;
+    font-family: inherit;
+}
+
+#topic > h1 > button {
+    margin-left: 63%;
+    padding: 10px;
+    text-align: center;
+    width: 17%;
+    border-radius: 2%;
+    border: transparent;
+    color: whitesmoke;
+}
+
+#topic > h1 > button:hover {
+    cursor: pointer;
+}
+
+#topic > h1 > button > a {
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: bold;
+    padding-top: 2px;
+    color:  rgb(66, 66, 144);
+    padding-left: 4px;
+}
+
+#topic > h1 > button > a > i {
+    padding-right: 8px;
+}
+
+#cv-layout {
+    border: 0.2px solid black;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    width: 60%;
+    top: 30%;
+    height: auto;
+    margin-left: 19%;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+#cv-layout > #bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+
+#cv-layout > #bio > img {
+    max-width: 25%;
+    height: auto;
+    border-style: none;
+    border-radius: 1%;
+    width: auto;
+    vertical-align: middle;
+    object-fit: cover;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+#name {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: rgb(63, 63, 114);
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+#institution {
+    font-family: inherit;
+    font-weight: bold;
+    color: rgb(63, 63, 114);
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+#contact > ul {
+    list-style: none;
+    margin-left: 1%;
+}
+
+#contact > ul > li > a {
+    text-decoration: none;
+    color: rgb(63, 63, 114);
+}
+
+#contact > ul > li > a > span {
+    text-decoration: none;
+    color: rgb(135, 135, 59);
+    font-family: inherit;
+    padding-left: 4%;
+}
+
+#cv-layout > #summary {
+    padding: 1%;
+    line-height: 1.2;
+    margin-top: 0;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+}
+
+#Experience {
+    padding: 1%;
+    line-height: 1.2;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+}
+
+#Experience > ul > li {
+    color: rgb(63, 63, 114);
+    line-height: 1;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+#Experience > ul > li > a {
+    text-decoration: none;
+    color: rgb(135, 135, 59)
+}
+
+#Experience > ul > span {
+    color: rgb(135, 135, 59);
+    font-weight: bold;
+    font-family: inherit;
+    padding-left: 50%;
+}
+
+#Experience > ul > p {
+    padding-left: 5%;
+}
+
+
+#Education {
+    padding: 1%;
+    line-height: 1.2;
+    margin-top: 0;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+}
+
+#Education > ul > li {
+    color: rgb(63, 63, 114);
+    line-height: 1;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+
+#Education > ul > span {
+    color: rgb(135, 135, 59);
+    font-weight: bold;
+    font-family: inherit;
+    padding-left: 50%;
+}
+
+#Education > ul > p {
+    padding-left: 5%;
+}
+
+#Essentials {
+    display: flex;
+    flex-direction: row;
+}
+
+#Essentials > #techstack, #skills {
+    padding: 1%;
+    line-height: 1.2;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+    margin-left: 15%;
+}
+
+/* #skirt {
+    position: static;
+    flex-grow: 1;
+    bottom: 100%;
+    width: 100%;
+    padding: 0.01%;
+    background-color: whitesmoke;
+    border-top: transparent;
+}
+
+#skirt > p {
+    color: rgb(105, 91, 91);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: smaller;
+    padding-left: 2%;
+    padding-top: 1%;
+} */
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px; 
+    width: 4%;
+    height: 70px;      
+    font-size: x-large;
+    box-sizing: border-box;
+    border: 1px transparent;
+    background-color: transparent;
+    color: rgb(71, 71, 144);
+    font-weight: bolder;
+    border-radius: 2%;
+}
+
+#back-to-top:hover {
+    cursor: pointer;
+}

@@ -292,6 +292,7 @@ img {display: block;}
 
 #back-to-top {
     position: fixed;
+    display: none;
     bottom: 30px;
     right: 30px; 
     width: 4%;
@@ -302,9 +303,11 @@ img {display: block;}
     background-color: transparent;
     color: rgb(71, 71, 144);
     font-weight: bolder;
+    transition: 0.5s;
     border-radius: 2%;
 }
 
 #back-to-top:hover {
     cursor: pointer;
+    transition: 0.5s;
 }

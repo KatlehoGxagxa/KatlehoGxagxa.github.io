@@ -94,6 +94,7 @@ img {display: block;}
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 1.05em;
     text-align: center;
     color:  rgb(66, 66, 144);
     padding-left: 3px;
@@ -121,7 +122,7 @@ img {display: block;}
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    /* line-height: 1; */
+    line-height: 1;
     background-color: rgb(210, 208, 208);
     /* gap: 2%; */
 }

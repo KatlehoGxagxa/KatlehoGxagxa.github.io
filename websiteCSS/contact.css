@@ -16,10 +16,14 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
-#hero-banner {
+
+.hero-banner {
     margin: 0;
-    padding: 2em 2em 2em;
+    padding: 1em 1em 1em;
     background-color: rgb(171, 171, 217);
     width: auto;
     display: flex;
@@ -28,7 +32,7 @@ body {
 
 #socials {
     min-width: 100px;
-    padding-left: 2%;
+    padding-left: 3%;
 }
 
 #socials > a {
@@ -114,6 +118,7 @@ body {
 #message-me {
     margin: 0;
     padding: 20px;
+    border: none;
 }
 
 .form-group {
@@ -129,7 +134,7 @@ body {
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     padding: 20px;
     width: 55.2%;
-    margin-left: 21%;
+    margin-left: 21.1%;
 }
 
 #message-box {
@@ -140,8 +145,8 @@ body {
     border:  1px solid;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    width: 55.2%;
-    margin-left: 21%;
+    width: 55.05%;
+    margin-left: 21.1%;
 }
 
 

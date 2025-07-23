@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Katleho Gxagxa">
+    <meta name="description" content="This is a personal portfolio website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+    <title>Katleho Gxagxa - Software Developer</title>
+    <link rel="icon" href="images/chara_shiro.png" type="image/x-icon">
     <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="fontawesome/css/brands.min.css">
     <link rel="stylesheet" href="fontawesome/css/regular.min.css">
@@ -11,11 +14,11 @@
     <link rel="stylesheet" href="websiteCSS/cv.css">
 </head>
 <body>
-    <div id="hero-banner">
+    <nav class="hero-banner">
         <div id="socials">
-            <a href="https://linkedin/in/KatlehoGxagxa"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://GitHub/KatlehoGxagxa"><i class="fa-brands fa-github-alt"></i></a>
-            <a href="https://reddit/KatlehoGxagxa"><i class="fa-brands fa-reddit-alien"></i></a>
+            <a href="https://www.linkedin.com/in/katleho-gxagxa/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/KatlehoGxagxa"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://www.reddit.com/user/katlehogxagxa/"><i class="fa-brands fa-reddit-alien"></i></a>
         </div>
         
         <div id="menu">
@@ -24,19 +27,19 @@
             <a href="cv.html">CV</a>
             <a href="contact.html">CONTACT</a>
         </div>
-    </div>
+    </nav>
 
-    <div id="topic">
-        <h1>Curriculum Vitae
-        <button><a href="https://drive.google.com/file/d/1ItNu0E4xdu6kdBIocqHe3VirvDmB7BGq/view?usp=sharing"><i class="fa-solid fa-download"></i> Download PDF version</a></button>
-        </h1>
-        
-        <div id="cv-layout">
-            <div id="bio">
-                <img src="images/IMG-20190329-WA0020 (2).jpg" alt="Profile Picture">
-                <div id="#name-institution">
+    <main class="topic">
+        <section id="main-topic">
+            <h1>Curriculum Vitae</h1>
+            <button><a href="https://drive.google.com/file/d/1ItNu0E4xdu6kdBIocqHe3VirvDmB7BGq/view?usp=sharing"><i class="fa-solid fa-download"></i> Download PDF version</a></button>
+        </section>
+
+        <section class="cv-outline">
+            <div class="cv-head">
+                <div id="name-institution-contact">
                     <h2 id="name">KATLEHO GXAGXA</h2>
-                    <span id="institution">University of the Witwatersrand, Johannesburg | BEconSci</span>
+                    <span id="institution">University of the Witwatersrand, Johannesburg | <abbr title="Bachelor of Economic Science">BEconSc</abbr> (Economic Science)</span>
                     <div id="contact">
                         <ul>
                             <li><a href="https://linkedin/in/KatlehoGxagxa"><i class="fa-brands fa-linkedin-in"></i><span>linkedin/in/KatlehoGxagxa</span></a></li>
@@ -46,44 +49,45 @@
                         </ul>
                     </div>
                 </div>
-            </div><br><br>
-            <hr>
-            <div id="summary">
+                
+                <img src="images/Katleho-Gxagxa-Profile-Picture.jpg" alt="Profile Picture">
+            </div>
+            <article id="summary">
                 <h2>Summary</h2>
                 <p>I am a budding Fullstack Developer with the basic understanding that good code goes through the rigorous processes of debugging and testing.
                     My main tool is the Python programming language. I have ambitions of eventually working within the AI space, I'm passionately driven by the potential 
                     benefits that AI could have in society - aiding people of all social backgrounds. To this end, I write clean, efficient, and tested code. Continuing Learning is also part of my core configuration. 
                 </p>
-            </div><br>
+            </article><br>
             <hr>
-            <div id="Experience">
+
+            <article id="Experience">
                 <h2>Experience</h2>
                 <ul>
                     <li>Backend Developer for <a href="https://Agentsofchange.com">Agents of Change South Africa</a> - Germiston</li>
                     <span>Feb 2025 - Present</span>
-                    <p>I use Django and the Django Rest Framework to develop APIs. The application in development aims to aid High School learners find the courses they qualify for, given their results, across all institutions of higher learning in South Africa.</p>
+                    <p>I use Django and the Django Rest Framework to develop APIs. The application in development aims to aid High School learners find the courses they qualify for, given their results, across all institutions of higher learning in South Africa.</p><br>
                     <li>Production Line Worker at Macsteel Service Centres - Roodekop</a></li>
                     <span>Apr 2024 - Apr 2025</span>
                     <p>I operated the CNC Plasma machine, the laser, and the bending machines to manufacture steel products to customer specifications.</p>
                 </ul>
-            </div><br>
-            
-            <div id="Education">
+            </article>
+
+            <article id="Education">
                 <h2>Education</h2>
                 <ul>
                     <li>CS50's Introduction to Programming with Python - Boston, Massachusetts</li>
                     <span>Aug 2024 - Nov 2024</span>
-                    <p>I took Harvard University's CS50P - Harvard's Division of Continuing Learning, as taught by Prof David J. Malan on edX. </p>
+                    <p>I took Harvard University's CS50P - Harvard's Division of Continuing Learning, as taught by Prof David J. Malan on edX. </p><br>
                     <li>Data Analytics - Google Coursera</a></li>
                     <span>Aug 2023 - Dec 2023</span>
-                    <p>I Completed all the problem sets and a Capstone project. Acquiring invaluable data analysis skills in the process.</p>
-                    <li>University of the Witwatersrand, Johannesburg - BEconSci (Economic Science)</a></li>
+                    <p>I Completed all the problem sets and a Capstone project. Acquiring invaluable data analysis skills in the process.</p><br>
+                    <li>University of the Witwatersrand, Johannesburg - BEconSc (Economic Science)</a></li>
                     <span>Feb 2017 - Dec 2020</span>
-                    <p>Perspective-changing courses, world-class lecturers and an environment tailored to productive learning. I was changed by Wits, positively.</p>
+                    <p>Perspective-changing courses, world-class lecturers and an environment tailored to productive learning.</p><br>
                 </ul>
-            </div><br>
-            <hr>
-            <div id="Essentials">
+            </article><hr width="75%">
+            <article id="Essentials">
                 <div id="techstack">
                 <h3>Techstack</h3>
                     <ul>
@@ -100,12 +104,12 @@
                             <li>Code testing</li>
                             <li>Planning</li>
                         </ul>
-                    </div>
-            </div>
-        </div>    
-    </div>
+                </div>
+            </article>
+        </section>
+    </main>
     
-    <!-- <footer id="skirt"><p>2025 &copy Katleho Gxagxa</p></footer> -->
+    <!-- <footer id="skirt"><p>2025 &copy; Katleho Gxagxa</p></footer> -->
     <button id="back-to-top" title="Back to Top"><i class="fa-solid fa-circle-arrow-up"></i></button>
     <script src="websiteJavascript/backtotop.js"></script>
 </body>

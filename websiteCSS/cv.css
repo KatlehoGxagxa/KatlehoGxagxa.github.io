@@ -15,18 +15,23 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 img {display: block;}
 
-#hero-banner {
+.hero-banner {
     margin: 0;
-    padding: 2em 2em 2em;
+    padding: 1em 1em 1em;
     background-color: rgb(171, 171, 217);
     width: auto;
     display: flex;
 }
 
 #socials {
-    padding-left: 2%;
+    padding-left: 3%;
 }
 
 #socials > a {
@@ -53,66 +58,75 @@ img {display: block;}
     color: white;
 }
 
-#topic > h1 {
-    margin: 0;
-    padding: 2%;
-    padding-left: 4%;
-    padding-top: 3%;
-    padding-bottom: 8%;
+.topic > #main-topic {
+    display: flex;
+    flex-direction: row;
     background-color:  rgb(66, 66, 144);
-    color: white;
+    margin: 0;
+    padding-bottom: 20%;
     position: relative;
-    font-family: inherit;
 }
 
-#topic > h1 > button {
-    margin-left: 63%;
-    padding: 10px;
-    text-align: center;
-    width: 17%;
+.topic > #main-topic > h1 {
+    font-size: 2.2em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.topic > #main-topic > button {
+    margin-top: 6%;
+    margin-left: 24%;
+    padding: 4px;
+    margin-bottom: 2.5%;
+    width: 18%;
     border-radius: 2%;
     border: transparent;
     color: whitesmoke;
 }
 
-#topic > h1 > button:hover {
+.topic > #main-topic > h1 > button:hover {
     cursor: pointer;
 }
 
-#topic > h1 > button > a {
+.topic > #main-topic > button > a {
     text-decoration: none;
-    font-family: inherit;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding-top: 2px;
+    text-align: center;
     color:  rgb(66, 66, 144);
-    padding-left: 4px;
+    padding-left: 3px;
+    line-height: 2em;
 }
 
-#topic > h1 > button > a > i {
+.topic > h1 > button > a > i {
     padding-right: 8px;
 }
 
-#cv-layout {
-    border: 0.2px solid black;
+.topic > .cv-outline {
+    border: 0.2px solid rgb(63, 63, 114);;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    width: 60%;
-    top: 30%;
+    width: 65%;
+    top: 40%;
     height: auto;
-    margin-left: 19%;
+    margin-left: 17.2%;
     position: absolute;
     background-color: whitesmoke;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
-#cv-layout > #bio {
+.cv-head {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 2%;
+    line-height: 1;
+    background-color: rgb(210, 208, 208);
+    /* gap: 2%; */
 }
 
-#cv-layout > #bio > img {
+.cv-head > img {
     max-width: 25%;
     height: auto;
     border-style: none;
@@ -120,31 +134,36 @@ img {display: block;}
     width: auto;
     vertical-align: middle;
     object-fit: cover;
-    margin-top: 3%;
-    margin-left: 10%;
+    margin-top: 0;
+    margin-left: 19.2%;
 }
 
-#name {
-    font-family: inherit;
-    font-weight: bold;
+.cv-head > #name-institution-contact >#name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     font-size: 2.5em;
     color: rgb(63, 63, 114);
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 0;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-left: 35%;
 }
 
-#institution {
+.cv-head > #name-institution-contact > #institution {
     font-family: inherit;
     font-weight: bold;
     color: rgb(63, 63, 114);
-    margin-left: 10%;
     white-space: nowrap;
+    margin-top: 0;
+    margin-left: 7%;
 }
 
-#contact > ul {
+#institution abbr {
+    text-decoration: none;
+}
+
+.cv-head > #name-institution-contact > #contact > ul {
     list-style: none;
-    margin-left: 1%;
+    margin-left: 0;
 }
 
 #contact > ul > li > a {
@@ -159,17 +178,20 @@ img {display: block;}
     padding-left: 4%;
 }
 
-#cv-layout > #summary {
+.topic > .cv-outline > #summary {
     padding: 1%;
-    line-height: 1.2;
+    padding-left: 3%;
+    line-height: 1;
     margin-top: 0;
     color: rgb(63, 63, 114);
     font-family: inherit;
 }
 
 #Experience {
+    margin-top: 0;
     padding: 1%;
-    line-height: 1.2;
+    padding-left: 3%;
+    line-height: 1;
     color: rgb(63, 63, 114);
     font-family: inherit;
 }
@@ -188,20 +210,19 @@ img {display: block;}
 
 #Experience > ul > span {
     color: rgb(135, 135, 59);
-    font-weight: bold;
-    font-family: inherit;
-    padding-left: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 75%;
 }
 
 #Experience > ul > p {
     padding-left: 5%;
 }
 
-
 #Education {
-    padding: 1%;
-    line-height: 1.2;
     margin-top: 0;
+    padding: 1%;
+    padding-left: 3%;
+    line-height: 1;
     color: rgb(63, 63, 114);
     font-family: inherit;
 }
@@ -213,12 +234,15 @@ img {display: block;}
     font-weight: bold;
 }
 
+#Education > ul > li > a {
+    text-decoration: none;
+    color: rgb(135, 135, 59)
+}
 
 #Education > ul > span {
     color: rgb(135, 135, 59);
-    font-weight: bold;
-    font-family: inherit;
-    padding-left: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 75%;
 }
 
 #Education > ul > p {
@@ -230,13 +254,22 @@ img {display: block;}
     flex-direction: row;
 }
 
-#Essentials > #techstack, #skills {
+#Essentials > #techstack{
     padding: 1%;
-    line-height: 1.2;
+    line-height: 1;
     color: rgb(63, 63, 114);
     font-family: inherit;
-    margin-left: 15%;
+    margin-left: 20%;
 }
+
+#Essentials > #skills {
+    padding: 1%;
+    line-height: 1;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+    margin-left: 10%;
+}
+
 
 /* #skirt {
     position: static;

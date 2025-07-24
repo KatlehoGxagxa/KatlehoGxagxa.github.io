@@ -202,8 +202,9 @@ html {
     margin-left: 10%;
 }
 
+
 #skirt {
-    padding: 0.01%;
+    padding: 0.2em;
     background-color: whitesmoke;
     border-top: transparent;
 }
@@ -213,9 +214,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: smaller;
-    padding-left: 2%;
-    padding-top: 1%;
+    margin-left: 1em;
+    margin-top: 0.5em;
 }
+
 
 #back-to-top {
     position: fixed;

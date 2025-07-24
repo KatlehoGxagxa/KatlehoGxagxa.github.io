@@ -1,18 +1,19 @@
 /* * {
     border: 1px solid black;
 } */
+/* @media (min-width: 320px) and (max-width: 480px) {
+  /* Styles for smaller phones */
 
+/* } */
 
 body {
     margin: 0;
     padding: 0;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    /* letter-spacing: 0.45px; */
-    /* width: 100%; */
     overflow-x: hidden;
 }
 
@@ -23,36 +24,49 @@ html {
 
 .hero-banner {
     margin: 0;
-    padding: 1em 1em 1em;
+    padding: 0.01em 0.01em 0.01em;
     background-color: rgb(171, 171, 217);
     width: auto;
     display: flex;
-    size-adjust: inherit;
+    justify-content: space-between;
 }
 
-#socials {
-    min-width: 100px;
-    padding-left: 3%;
+#socials ul {
+    display: flex;
+    list-style-type: none;
 }
 
-#socials > a {
-    margin-left: 10px;
-    padding: 10px;
+#socials ul li {
+    padding: 0.2em;
+    width: max-content;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+#socials ul li a {
+    margin-left: 1.5em;
     text-decoration: none;
     font-size: large;
-    font-weight: 1000;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     color: white;   
 }
 
-#menu {
-    min-width: 100px;
-    padding-left: 65%;
+#menu ul {
+    display: flex;
+    margin-right: 4em;
+    list-style-type: none;
 }
 
-#menu > a {
-    margin-left: 10px;
-    padding: 3px;
+#menu ul li {
+    text-align: center;
+    padding: 0.2em;
+    width: max-content;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+#menu ul li a {
+    margin-left: 1em;
+    padding: 0.2em;
     text-decoration: none;
     font-size: medium;
     font-weight: bold;
@@ -62,8 +76,8 @@ html {
 
 #profile {
     margin: 0;
-    padding: 1.75%;
-    padding-left: 45%;
+    padding: 1.094em;
+    padding-left: 43em;
 }
 
 #profile > img{
@@ -77,9 +91,9 @@ html {
 #message {
     background-color: whitesmoke;
     border:  1px solid;
-    border-radius: 5px;
+    border-radius: 0.3125em;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    padding: 3%;
+    padding: 2em;
     width: 50%;
     height: 70%;
     margin-left: 22%;
@@ -101,28 +115,29 @@ html {
     font-family: inherit;
 }
 
-#social-links {
+#social-links ul {
     display: flex;
-    padding: 5px;
-    padding-left: 18%;
+    padding: 1em;
+    padding-left: 10em;
+    list-style-type: none;
 }
 
-#social-links > p{
-    padding: 10px;
+#social-links ul li p{
+    padding: 1em;
 }
 
-#social-links > p > a {
+#social-links ul li p a {
     color: rgb(135, 135, 59);
 }
 
 #message-me {
     margin: 0;
-    padding: 20px;
+    padding: 1.25em;
     border: none;
 }
 
-.form-group {
-    margin-bottom: 10px;
+#message-me {
+    margin-bottom: 0.625em;
     display: flex;
     flex-direction: column;
 }
@@ -130,23 +145,24 @@ html {
 #name, #email {
     background-color: whitesmoke;
     font-family: inherit;
-    border-radius: 5px;
+    border: 1px solid;
+    border-radius: 0.3125em;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 55.2%;
-    margin-left: 21.1%;
+    padding: 1.25em;
+    width: 59.5em;
+    margin-left: 23.5em;
 }
 
 #message-box {
     font-family: inherit;
-    height: 200px;
+    height: 12.5em;
     background-color: whitesmoke;
     padding: 1.5%;
     border:  1px solid;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    width: 55.05%;
-    margin-left: 21.1%;
+    width:  58.6em;
+    margin-left: 23.5em;
 }
 
 
@@ -156,8 +172,8 @@ html {
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     padding: 20px;
-    width: 58.6%;
-    margin-left: 21%;
+    width: 62.2em;
+    margin-left: 23.5em;
     font-family: inherit;
     font-weight: 500;
     cursor: pointer;
@@ -180,17 +196,17 @@ html {
 
 #back-to-top {
     position: fixed;
-    bottom: 30px;
-    right: 30px; 
-    width: 4%;
-    height: 60px;      
+    bottom: 1.875em;
+    right: 1.875em; 
+    width: 0.04em;
+    height: 3.75em;      
     font-size: x-large;
     box-sizing: border-box;
     background-color: transparent;
     border: 1px transparent;    
     color: rgb(71, 71, 144);
     font-weight: bolder;
-    border-radius: 2%;
+    border-radius: 0.02em;
 }
 
 #back-to-top:hover {

@@ -72,17 +72,25 @@ html {
 /* Profile Section */
 .profile {
   margin: 0;
-  padding: 1.5em 1.5em 3em 12em;
+  padding: 1.5em;
+  padding-left: 12em;
+  padding-bottom: 3em;
   background-color: rgb(66, 66, 144);
+  width: auto;
   display: flex;
   flex-wrap: wrap;
+  flex-basis: auto;
   align-items: center;
   line-height: 1em;
 }
 
 .profile > figure img {
   max-width: 15em;
+  height: auto;
+  border-style: none;
   border-radius: 0.5em;
+  width: auto;
+  vertical-align: middle;
   object-fit: cover;
 }
 
@@ -92,10 +100,12 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-left: 1.5em;
+  position: relative;
+  /* word-spacing: 0.5em; */
 }
 
 .profile > .name-bio > h1 {
-  font-size: 3rem;
+  font-size: 3rem;    
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: white;
@@ -103,9 +113,11 @@ html {
 }
 
 .name-bio > p > span {
+  font-family: inherit;
   font-weight: lighter;
   font-size: large;
   text-align: center;
+  line-height: 1;
   color: white;
   margin-left: 0.5em;
 }
@@ -122,6 +134,7 @@ html {
   text-align: center;
   font-weight: lighter;
   color: white;
+  line-height: 1.4em;
 }
 
 #teaser > a {
@@ -253,8 +266,9 @@ html {
 }
 
 .off-screen-menu {
-  background-color: darkgray;
-  height: 100vh;
+  background-color: hsl(0 0% 0% / 0.25);
+  backdrop-filter: blur(0.5rem);
+  height: 30vh;
   width: 100%;
   max-width: 450px;
   position: fixed;
@@ -262,24 +276,48 @@ html {
   right: -450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 2rem;
-  gap: 1em;
+  justify-content: flex-start;
+  /* align-items: center; */
+  /* text-align: center; */
+  font-size: 1rem;
+  gap: 3em;
   z-index: 1000;
   transition: right 0.3s ease;
+}
+
+@supports (backdrop-filter: blur(0.1rem)) {
+  .off-screen-menu {
+    background-color: hsl(0 0% 100% / 0.2);
+    backdrop-filter: blur(0.5rem);
+  }
+}
+
+
+.off-screen-menu ul {
+  font-size: larger;
+  margin: 20%;
+  margin-top: 5%;
+  align-items: center;
+  text-align: center;
+}
+
+.off-screen-menu #close-menu {
+  margin-left: 90%;
+  margin-top: 1em;
+  font-size: large;
 }
 
 .off-screen-menu a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .off-screen-menu.active {
   right: 0;
 }
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -289,6 +327,22 @@ html {
 
   #ham-menu {
     display: block;
+    padding: 1;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #menu-toggle {
+    font-size: small;
+  }
+
+  #mobile-menu ul {
+    list-style-type: none;
+    font-size: medium;
+  }
+
+  .ham-menu span {
+    font-size: x-small;
   }
 
   .profile {
@@ -298,17 +352,41 @@ html {
 
   .profile > figure img {
     max-width: 10em;
-    margin-left: auto;
+    margin-left: 50%;
     margin-right: auto;
   }
 
+  .name-bio {
+    margin: 0;
+  }
+
   .profile > .name-bio > h1 {
+    margin-left: 5%;
     font-size: 2em;
   }
 
   .name-bio > p > span {
     font-size: small;
     line-height: 1;
+    white-space: nowrap;
+    margin-left: 5%;
+  }
+
+  .name-bio > p > span > a {
+    padding-left: 5%;
+  }
+
+  #teaser {
+    font-size: smaller;
+    justify-content: center;
+  }
+
+  .article {
+    padding: 1.5em;
+  }
+
+  .article span {
+    font-size: small;
   }
 
   .article p {
@@ -319,6 +397,10 @@ html {
   #Latest-News > #updates {
     display: flex;
     flex-direction: column;
+  }
+
+  #Latest-News h3 {
+    font-size: medium;
   }
 
   #skirt > p {

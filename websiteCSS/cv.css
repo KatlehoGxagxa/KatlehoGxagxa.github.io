@@ -565,7 +565,7 @@ html {
         vertical-align: middle;
         object-fit: cover;
         margin-top: 0;
-        margin-left: .3%;
+        margin-left: 20%;
     }
     
     .cv-head > #name-institution-contact > #name {
@@ -580,16 +580,17 @@ html {
     }
     
     .cv-head > #name-institution-contact > #institution {
+        display: none;
         font-family: inherit;
         font-weight: bold;
-        font-size: x-small;
+        font-size: xx-small;
+        line-height: 1em;
         color: rgb(63, 63, 114);
         white-space: wrap;
-        margin-top: 0;
-        margin-left: 2%;
-    }
+        margin-top: 0;    }
     
     #institution abbr {
+        display: none;
         text-decoration: none;
         margin-left: 2%;
     }

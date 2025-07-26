@@ -402,8 +402,8 @@ html {
         border-radius: 0.3125em;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
         padding: .5em;
-        width: 20.5em;
-        margin-left: 3em;
+        width: 70%;
+        margin-left: 15%;
     }
 
     #message-box {
@@ -414,8 +414,8 @@ html {
         border:  1px solid;
         border-radius: 5px;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-        width:  20.5em;
-        margin-left: 3em;
+        width: 70%;
+        margin-left: 15%;
     }
 
 
@@ -425,8 +425,8 @@ html {
         border-radius: 5px;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
         padding: 10px;
-        width: 20.5em;
-        margin-left: 3em;
+        width: 70%;
+        margin-left: 15%;
         font-family: inherit;
         font-weight: 500;
         cursor: pointer;

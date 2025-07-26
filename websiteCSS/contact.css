@@ -385,6 +385,92 @@ html {
     #social-links ul {
         display: flex;
         padding: 1em;
+        padding-left: 1em;
+        font-size: x-small;
+        list-style-type: none;
+    }
+
+    #social-links ul li p{
+        padding: 1em;
+    }
+
+    #name, #email {
+        background-color: whitesmoke;
+        font-family: inherit;
+        font-size: small;
+        border: 1px solid;
+        border-radius: 0.3125em;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        padding: .5em;
+        width: 20em;
+        margin-left: 3.3em;
+    }
+
+    #message-box {
+        font-family: inherit;
+        height: 12.5em;
+        background-color: whitesmoke;
+        padding: 1.5%;
+        border:  1px solid;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        width:  20em;
+        margin-left: 3.3em;
+    }
+
+
+    #submit-button {
+        background-color: rgb(171, 171, 217);
+        border:  1px solid;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        padding: 10px;
+        width: 20em;
+        margin-left: 3.3em;
+        font-family: inherit;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    #skirt > p {
+      display: block;
+    }
+  }
+  
+  
+@media screen and (max-width: 970px) and (orientation:landscape) {
+
+    
+    #profile {
+      padding: 1em;
+      padding-left: 9em;
+    }
+
+    #profile > img{
+      min-width: 20px;
+    }
+
+    #message {
+      background-color: whitesmoke;
+      border:  1px solid;
+      border-radius: 0.3125em;
+      box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+      padding: 1em;
+      width: 70%;
+      height: 20%;
+      margin-left: 15%;
+    }
+
+    #message > p {
+      text-align: center;
+      font-size: small;
+      /* padding-left: 22%; */
+      font-family: inherit;
+    }
+
+    #social-links ul {
+        display: flex;
+        padding: 1em;
         padding-left: 2em;
         font-size: x-small;
         list-style-type: none;
@@ -431,15 +517,6 @@ html {
         font-weight: 500;
         cursor: pointer;
     }
-    
-    #skirt > p {
-      display: block;
-    }
-  }
-  
-  
-@media screen and (max-width: 970px) and (orientation:landscape) {
-
     
     /* Footer */
     #skirt {

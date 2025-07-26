@@ -403,7 +403,7 @@ html {
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
         padding: .5em;
         width: 78%;
-        margin-left: 13%;
+        margin-left: 11%;
     }
 
     #message-box {
@@ -415,7 +415,7 @@ html {
         border-radius: 5px;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
         width: 78%;
-        margin-left: 13%;
+        margin-left: 11%;
     }
 
 
@@ -426,7 +426,7 @@ html {
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
         padding: 10px;
         width: 78%;
-        margin-left: 13%;
+        margin-left: 11%;
         font-family: inherit;
         font-weight: 500;
         cursor: pointer;

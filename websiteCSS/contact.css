@@ -434,6 +434,7 @@ html {
     }
     
     #skirt > p {
+      font-size: x-small;
       display: block;
     }
   }

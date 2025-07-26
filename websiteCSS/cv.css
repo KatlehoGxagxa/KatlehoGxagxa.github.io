@@ -437,7 +437,7 @@ html {
 .off-screen-menu a {
     color: white;
     text-decoration: none;
-    font-size: medium;
+    font-size: larger;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
 }

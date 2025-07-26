@@ -1,10 +1,7 @@
-/* * {
-    border: 1px solid black;
-} */
-/* @media (min-width: 320px) and (max-width: 480px) {
-  /* Styles for smaller phones */
-
-/* } */
+/* Global Styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -12,7 +9,6 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
 }
@@ -21,12 +17,11 @@ html {
     scroll-behavior: smooth;
 }
 
-
+/* Hero Banner */
 .hero-banner {
     margin: 0;
-    padding: 0.01em 0.01em 0.01em;
+    padding: 0.01em;
     background-color: rgb(171, 171, 217);
-    width: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -47,7 +42,7 @@ html {
     margin-left: 1.5em;
     text-decoration: none;
     font-size: large;
-    color: white;   
+    color: white;
 }
 
 #menu ul {
@@ -212,4 +207,281 @@ html {
 
 #back-to-top:hover {
     cursor: pointer;
+}
+
+
+/* Hamburger Menu Styles */
+#ham-menu {
+    padding: 1em;
+    display: none;
+    background-color: rgb(171, 171, 217);
+}
+
+.ham-menu {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.ham-menu span {
+    height: 4px;
+    width: 70%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+    top: 5%;
+}
+
+.ham-menu span:nth-child(2) {
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+    top: 45%;
+}
+
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+}
+
+.off-screen-menu {
+    background-color: hsl(0 0% 0% / 0.25);
+    backdrop-filter: blur(0.5rem);
+    height: 40vh;
+    width: 100vw;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    gap: 3em;
+    z-index: 1000;
+    transition: right 0.3s ease;
+}
+
+@supports (backdrop-filter: blur(0.1rem)) {
+    .off-screen-menu {
+        background-color: hsl(0 0% 100% / 0.2);
+        backdrop-filter: blur(0.5rem);
+    }
+}
+
+
+.off-screen-menu ul {
+    font-size: larger;
+    margin: 20%;
+    margin-top: 4%;
+    align-items: center;
+    text-align: center;
+}
+
+.off-screen-menu #close-menu {
+    margin-left: 80%;
+    margin-top: 1em;
+    font-size: large;
+}
+
+.off-screen-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.off-screen-menu.active {
+    right: 0;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #menu {
+      display: none;
+    }
+  
+    .hero-banner {
+      padding: 0;
+      height: 4em;
+      justify-content: space-between;
+    }
+  
+    #socials ul {
+      padding: 0;
+    }
+  
+    #ham-menu {
+      display: block;
+      padding: 1;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    #menu-toggle {
+      font-size: small;
+    }
+  
+    #mobile-menu ul {
+      list-style-type: none;
+      font-size: medium;
+    }
+  
+    .ham-menu span {
+      font-size: x-small;
+    }
+
+    #profile {
+      padding: 1em;
+      padding-left: 9em;
+    }
+
+    #profile > img{
+      min-width: 20px;
+    }
+
+    #message {
+      background-color: whitesmoke;
+      border:  1px solid;
+      border-radius: 0.3125em;
+      box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+      padding: 1em;
+      width: 70%;
+      height: 20%;
+      margin-left: 15%;
+    }
+
+    #message > p {
+      text-align: center;
+      font-size: small;
+      /* padding-left: 22%; */
+      font-family: inherit;
+    }
+
+    #social-links ul {
+        display: flex;
+        padding: 1em;
+        padding-left: 2em;
+        font-size: x-small;
+        list-style-type: none;
+    }
+
+    #social-links ul li p{
+        padding: 1em;
+    }
+
+    #name, #email {
+        background-color: whitesmoke;
+        font-family: inherit;
+        font-size: small;
+        border: 1px solid;
+        border-radius: 0.3125em;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        padding: .5em;
+        width: 23.5em;
+        margin-left: 3.3em;
+    }
+
+    #message-box {
+        font-family: inherit;
+        height: 12.5em;
+        background-color: whitesmoke;
+        padding: 1.5%;
+        border:  1px solid;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        width:  23em;
+        margin-left: 3.3em;
+    }
+
+
+    #submit-button {
+        background-color: rgb(171, 171, 217);
+        border:  1px solid;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        padding: 10px;
+        width: 23em;
+        margin-left: 3.3em;
+        font-family: inherit;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    #skirt > p {
+      display: block;
+    }
+  }
+  
+  
+@media screen and (max-width: 970px) and (orientation:landscape) {
+
+    
+    /* Footer */
+    #skirt {
+        display: none;
+    }
+    
+    #skirt > p {
+        color: rgb(105, 91, 91);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: smaller;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+    
+    /* Back to Top */
+    #back-to-top {
+        position: fixed;
+        bottom: 1.875em;
+        right: 1.875em;
+        font-size: x-large;
+        background-color: transparent;
+        border: none;
+        color: rgb(71, 71, 144);
+        font-weight: bolder;
+        border-radius: 0.02em;
+    }
+    
+    #back-to-top:hover {
+        cursor: pointer;
+    }
+    
+}
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+    and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    /* iPad portrait styles */    
+    
+    
+    /* Footer */
+    #skirt {
+        display: none;
+    }
+ 
 }

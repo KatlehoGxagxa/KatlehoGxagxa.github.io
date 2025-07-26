@@ -144,20 +144,22 @@ html {
     border-radius: 0.3125em;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     padding: 1.25em;
-    width: 59.5em;
-    margin-left: 23.5em;
+    width: 51.7%;
+    /* height: 70%; */
+    margin-left: 21%;
 }
 
 #message-box {
     font-family: inherit;
-    height: 12.5em;
+    height: 15em;
     background-color: whitesmoke;
     padding: 1.5%;
     border:  1px solid;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    width:  58.6em;
-    margin-left: 23.5em;
+    width: 51.7%;
+    /* height: 70%; */
+    margin-left: 21%;
 }
 
 
@@ -167,10 +169,12 @@ html {
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
     padding: 20px;
-    width: 62.2em;
     margin-left: 23.5em;
     font-family: inherit;
     font-weight: 500;
+    width: 51.7%;
+    /* height: 70%; */
+    /* margin-left: 22%; */
     cursor: pointer;
 }
 
@@ -559,6 +563,116 @@ html {
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     /* iPad portrait styles */    
+        #profile {
+      padding: 1em;
+      padding-left: 43%;
+    }
+
+    #profile > img{
+      min-width: 20px;
+    }
+
+    #message {
+      background-color: whitesmoke;
+      border:  1px solid;
+      border-radius: 0.3125em;
+      box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+      padding: 1em;
+      width: 70%;
+      height: 20%;
+      margin-left: 15%;
+    }
+
+    #message > p {
+      text-align: center;
+      font-size: small;
+      /* padding-left: 22%; */
+      font-family: inherit;
+    }
+
+    #social-links ul {
+        display: flex;
+        padding: 1em;
+        padding-left: 25%;
+        font-size: x-small;
+        list-style-type: none;
+    }
+
+    #social-links ul li p{
+        padding: 1em;
+    }
+
+    #name, #email {
+        background-color: whitesmoke;
+        font-family: inherit;
+        font-size: small;
+        border: 1px solid;
+        border-radius: 0.3125em;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        padding: .5em;
+        width: 74%;
+        height: 20%;
+        margin-left: 13%;
+    }
+
+    #message-box {
+        font-family: inherit;
+        height: 20em;
+        background-color: whitesmoke;
+        padding: 1.5%;
+        border:  1px solid;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        width: 74%;
+        /* height: 50%; */
+        margin-left: 13%;
+    }
+
+
+    #submit-button {
+        background-color: rgb(171, 171, 217);
+        border:  1px solid;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+        padding: 10px;
+        width: 74%;
+        height: 20%;
+        margin-left: 13%;
+        font-family: inherit;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    /* Footer */
+    #skirt {
+        display: none;
+    }
+    
+    #skirt > p {
+        color: rgb(105, 91, 91);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: smaller;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+    
+    /* Back to Top */
+    #back-to-top {
+        position: fixed;
+        bottom: 1.875em;
+        right: 1.875em;
+        font-size: x-large;
+        background-color: transparent;
+        border: none;
+        color: rgb(71, 71, 144);
+        font-weight: bolder;
+        border-radius: 0.02em;
+    }
+    
+    #back-to-top:hover {
+        cursor: pointer;
+    }
     
     
     /* Footer */
@@ -567,3 +681,5 @@ html {
     }
  
 }
+
+

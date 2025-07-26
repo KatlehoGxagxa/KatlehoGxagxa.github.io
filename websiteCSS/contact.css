@@ -402,7 +402,7 @@ html {
         border-radius: 0.3125em;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
         padding: .5em;
-        width: 21em;
+        width: 20.5em;
         margin-left: 3.3em;
     }
 
@@ -414,7 +414,7 @@ html {
         border:  1px solid;
         border-radius: 5px;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-        width:  21em;
+        width:  20.5em;
         margin-left: 3.3em;
     }
 
@@ -425,7 +425,7 @@ html {
         border-radius: 5px;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
         padding: 10px;
-        width: 21em;
+        width: 20.5em;
         margin-left: 3.3em;
         font-family: inherit;
         font-weight: 500;

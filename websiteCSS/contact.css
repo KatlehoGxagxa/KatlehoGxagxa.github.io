@@ -357,11 +357,12 @@ html {
 
     #profile {
       padding: 1em;
-      padding-left: 9em;
+      padding-left: 35%;
+      /* align-items: center; */
     }
 
     #profile > img{
-      min-width: 20px;
+      min-width: 15px;
     }
 
     #message {

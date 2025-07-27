@@ -309,11 +309,11 @@ html {
   border: .1px gray;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-width: 100%;
-  background-color: hsl(0 0% 0% / 0.4);
+  background-color: hsl(0 0% 0% / .7);
 }
 
 .off-screen-menu #close-menu {
-  color: rgb(157, 178, 124);
+  color: hsl(0 0% 0% / .7);
   margin-left: 80%;
   margin-top: 1em;
   font-size: large;

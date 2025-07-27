@@ -537,7 +537,7 @@ html {
         padding: 10px;
         width: 74%;
         height: 20%;
-        margin-left: 13%;
+        margin-left: 24%;
         font-family: inherit;
         font-weight: 500;
         cursor: pointer;
@@ -727,6 +727,7 @@ html {
 
   #submit-button {
     width: 60%;
+    margin-left: 24%;
   }
 
 }

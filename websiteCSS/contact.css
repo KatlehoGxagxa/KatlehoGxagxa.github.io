@@ -325,14 +325,14 @@ html {
     font-size: large;
   }
   
-.off-screen-menu a {
-      color: rgb(157, 178, 124);
-      text-decoration: none;
-      font-size: larger;
-      font-weight: 900;
-      font-family: 'Courier New', Courier, monospace;
-  }
-  
+.off-screen-menu a button {
+    color: rgb(157, 178, 124);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .off-screen-menu.active {
     transform: translateX(0);
     right: 0;

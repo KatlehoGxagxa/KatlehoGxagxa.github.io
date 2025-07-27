@@ -337,7 +337,7 @@ position: relative;
   font-size: large;
 }
 
-.off-screen-menu a {
+.off-screen-menu a button {
     color: rgb(157, 178, 124);
     text-decoration: none;
     font-size: larger;

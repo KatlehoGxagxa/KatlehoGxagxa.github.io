@@ -326,7 +326,7 @@ position: relative;
   border: .1px gray;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-width: 100%;
-  background-color: hsl(0 0% 0% / 0.15);
+  background-color: hsl(0 0% 0% / 0.4);
 }
 
 .off-screen-menu #close-menu {

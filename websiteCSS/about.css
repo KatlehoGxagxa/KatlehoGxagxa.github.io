@@ -343,11 +343,11 @@ position: relative;
 }
 
 .off-screen-menu a {
-    color: white;
-    text-decoration: none;
-    font-size: larger;
-    font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+  color: rgb(118, 146, 77);
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .off-screen-menu.active {

@@ -337,17 +337,18 @@ position: relative;
 }
 
 .off-screen-menu #close-menu {
-    margin-left: 80%;
-    margin-top: 1em;
-    font-size: large;
+  color: rgb(157, 178, 124);
+  margin-left: 80%;
+  margin-top: 1em;
+  font-size: large;
 }
 
 .off-screen-menu a {
-  color: rgb(118, 146, 77);
-  text-decoration: none;
-  font-size: larger;
-  font-weight: 900;
-  font-family: 'Courier New', Courier, monospace;
+    color: rgb(157, 178, 124);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .off-screen-menu.active {

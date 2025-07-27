@@ -410,6 +410,7 @@ html {
     gap: 3em;
     z-index: 1000;
     transition: right 0.3s ease;
+    display: none;
 }
 
 @supports (backdrop-filter: blur(0.1rem)) {

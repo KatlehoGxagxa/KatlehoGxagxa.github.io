@@ -435,7 +435,7 @@ position: relative;
   }
   
   
-  @media screen and (max-width: 970px) and (orientation:landscape) {
+@media screen and (max-width: 970px) and (orientation:landscape) {
   
     .hero-banner {
       padding: 0;
@@ -497,7 +497,7 @@ position: relative;
     }
   }
   
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     /* iPad portrait styles */
     
@@ -543,6 +543,10 @@ position: relative;
     .name-bio > p > span > a {
       padding-left: 5%;
     }
+
+    .off-screen-menu ul {
+      display: none;
+    }
   
     #teaser {
       font-size: x-small;
@@ -554,7 +558,7 @@ position: relative;
     }
   }
   
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1400px)
+@media only screen and (min-device-width: 768px) and (max-device-width: 1400px)
     and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     /* iPad landscape styles */
     
@@ -599,6 +603,10 @@ position: relative;
   
     .name-bio > p > span > a {
       padding-left: 5%;
+    }
+
+    .off-screen-menu ul {
+      display: none;
     }
   
     #teaser {

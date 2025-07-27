@@ -312,16 +312,16 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-width: 100%;
     background-color: hsl(0 0% 0% / .7);
-  }
+}
   
 .off-screen-menu #close-menu {
     color: hsl(0 0% 0% / .7);
     margin-left: 80%;
     margin-top: 1em;
     font-size: large;
-  }  
+}  
 
-  .off-screen-menu a {
+.off-screen-menu a {
       color: rgb(157, 178, 124);
       text-decoration: none;
       font-size: larger;
@@ -458,7 +458,6 @@ html {
   
 @media screen and (max-width: 970px) and (orientation:landscape) {
 
-    
     #profile {
       padding: 1em;
       padding-left: 43%;
@@ -572,10 +571,10 @@ html {
     
 }
   
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     /* iPad portrait styles */    
-        #profile {
+    #profile {
       padding: 1em;
       padding-left: 43%;
     }
@@ -668,6 +667,10 @@ html {
         margin-left: 1em;
         margin-top: 0.5em;
     }
+
+    .off-screen-menu ul {
+        display: none;
+    }
     
     /* Back to Top */
     #back-to-top {
@@ -695,3 +698,30 @@ html {
 }
 
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1400px)
+  and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  /* iPad landscape styles */
+  .off-screen-menu ul {
+    display: none;
+  }
+
+  #message {
+    margin-left: 25%;
+    width: 58%;
+  }
+
+  #name, #email {
+    margin-left: 24%;
+    width: 60%;
+  }
+
+  #message-box {
+    margin-left: 24%;
+    width: 60%;
+  }
+
+  #submit-button {
+    width: 60%;
+  }
+
+}

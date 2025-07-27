@@ -443,15 +443,15 @@ html {
     margin-left: 80%;
     margin-top: 1em;
     font-size: large;
-  }
+}
 
-  .off-screen-menu a {
-      color: rgb(157, 178, 124);
-      text-decoration: none;
-      font-size: larger;
-      font-weight: 900;
-      font-family: 'Courier New', Courier, monospace;
-  }
+.off-screen-menu a {
+    color: rgb(157, 178, 124);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
   
 .off-screen-menu.active {
     right: 0;
@@ -1018,7 +1018,7 @@ html {
     
 }
   
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     /* iPad portrait styles */
     
@@ -1077,9 +1077,10 @@ html {
 
 
     .topic > .cv-outline {
-        margin-left: 2.5em;
-        width: 45em;
+        margin-left: 4em;
+        width: 40em;
         height: auto;
+        margin-top: 10%;
     }
 
     .cv-head {
@@ -1093,7 +1094,7 @@ html {
     }
     
     .cv-head > img {
-        max-width: 18%;
+        max-width: 25%;
         height: auto;
         border-style: none;
         border-radius: 1%;
@@ -1101,7 +1102,7 @@ html {
         vertical-align: middle;
         object-fit: cover;
         margin-top: 0;
-        margin-left: 20%;
+        margin-left: 28.2%;
     }
     
     .cv-head > #name-institution-contact > #name {
@@ -1263,6 +1264,9 @@ html {
         list-style-type: none;
     }
     
+    .off-screen-menu ul {
+        display: none;
+      }
     
     
     /* Footer */
@@ -1272,44 +1276,260 @@ html {
  
 }
 
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1366px)
-  and (pointer: coarse) and (-webkit-min-device-pixel-ratio: 1) {
-  /* Styles for all iPads (any model, any orientation) */
-    /* .cv-outline {
-        margin: 0;
-    }
-} */
- 
-/* @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    
-    .cv-outline {
-      margin-left: 0;
-      width: 90%;
-      height: auto;
-    }
 
-    .cv-head > img {
-      max-width: 20%;
-      margin-left: 10%;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1400px)
+and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+/* iPad landscape styles */
+.topic > #main-topic {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color:  rgb(66, 66, 144);
+    margin: 0;
+    padding-bottom: 20%;
+    position: relative;
+}
 
-    .cv-head > #name-institution-contact > #name {
-      font-size: 2rem;
-      margin-left: 30%;
-    }
+.topic > #main-topic > h1 {
+    font-size: 2em;
+    white-space: none;
+    margin: 0;
+    padding-left: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    white-space: none ;
+    /* margin-left: 20%; */
+}
 
-    .topic > #main-topic > h1 {
-      font-size: 2rem;
-      margin-top: 8%;
-      padding-left: 5%;
-    }
+.topic > #main-topic > button {
+    margin-top: 11%; 
+    margin-left: 30%;
+    padding: 4px;
+    margin-bottom: 2.5%;
+    width: 30%;
+    border-radius: 2%;
+    border: transparent;
+    color: whitesmoke;
+}
 
-    .topic > #main-topic > button {
-      margin-top: 10%;
-      margin-left: 20%;
-      width: 50%;
-    }
-} */
+.topic > #main-topic > h1 > button:hover {
+    cursor: pointer;
+}
+
+.topic > #main-topic > button > a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color:  rgb(66, 66, 144);
+    padding-left: 3px;
+    line-height: 1em;
+}
+
+.topic > h1 > button > a > i {
+    padding-right: 7px;
+}
+
+
+.topic > .cv-outline {
+    margin-left: 2em;
+    width: 93%;
+    height: auto;
+    margin-top: .5%;
+}
+
+.cv-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 1;
+    height: auto;
+    padding: 0;
+    background-color: rgb(210, 208, 208);
+}
+
+.cv-head > img {
+    max-width: 25%;
+    height: auto;
+    border-style: none;
+    border-radius: 1%;
+    width: auto;
+    vertical-align: middle;
+    object-fit: cover;
+    margin-top: 0;
+    margin-left: 28.2%;
+}
+
+.cv-head > #name-institution-contact > #name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-top: 0.8em;
+    color: rgb(63, 63, 114);
+    white-space: nowrap;
+    margin-top: 0;
+    margin-left: 45%;
+}
+
+.cv-head > #name-institution-contact > #institution {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: small;
+    color: rgb(63, 63, 114);
+    white-space: wrap;
+    margin-top: 0;
+    margin-left: 9%;
+    white-space: nowrap;
+}
+
+.cv-head > #name-institution-contact > #contact > ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+
+#contact > ul > li > a {
+    text-decoration: none;
+    color: rgb(63, 63, 114);
+    margin: 0;
+    font-size: small;
+}
+
+#contact > ul > li > a > span {
+    text-decoration: none;
+    color: rgb(135, 135, 59);
+    font-family: inherit;
+    padding-left: 1em;
+    font-size: small;
+}
+
+.topic > .cv-outline > #summary {
+    padding: 1em;
+    padding-left: 1.5em;
+    line-height: 1.2;
+    margin-top: 0;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+}
+
+#Experience {
+    margin-top: 0;
+    padding: 1em;
+    padding-left: 1.5em;
+    line-height: 1.2;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+}
+
+#Experience > ul > li {
+    color: rgb(63, 63, 114);
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+#Experience > ul > li > a {
+    text-decoration: none;
+    color: rgb(135, 135, 59)
+}
+
+#Experience > ul > span {
+    color: rgb(135, 135, 59);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0;
+}
+
+#Experience > ul > p {
+    padding-left: 0;
+}
+
+#Education {
+    margin-top: 0;
+    padding: 1em;
+    padding-left: 1.5em;
+    line-height: 1.2;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+}
+
+#Education > ul > li {
+    color: rgb(63, 63, 114);
+    line-height: 1;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+#Education > ul > li > a {
+    text-decoration: none;
+    color: rgb(135, 135, 59)
+}
+
+#Education > ul > span {
+    color: rgb(135, 135, 59);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0;
+}
+
+#Education > ul > p {
+    padding-left: 0;
+}
+
+#Essentials {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#Essentials > #techstack{
+    padding: 0.5em;
+    line-height: 1.3;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+    margin-left: 0;
+}
+
+#Essentials > #techstack > ul > li {
+    justify-content: left;
+    list-style-type: none;
+}
+
+#Essentials > #skills {
+    padding: 0.5em;
+    line-height: 1.3;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+    margin-left: 0;
+}
+
+#Essentials > #skills > ul > li {
+    justify-content: left;
+    list-style-type: none;
+}
+
+#Essentials > #languages {
+    padding: 0.5em;
+    line-height: 1.3;
+    color: rgb(63, 63, 114);
+    font-family: inherit;
+    margin-left: 21.875;
+}
+
+#Essentials > #languages > ul > li {
+    justify-content: left;
+    list-style-type: none;
+}
+
+.off-screen-menu ul {
+    display: none;
+  }
+
+
+/* Footer */
+#skirt {
+    display: none;
+}
+
+}

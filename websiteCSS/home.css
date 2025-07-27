@@ -301,6 +301,7 @@ html {
   align-items: center;
   text-align: center;
   padding: 20px;
+  list-style-type: none;
 }
 
 .off-screen-menu ul li button {
@@ -567,6 +568,10 @@ html {
     padding-left: 5%;
   }
 
+  .off-screen-menu ul {
+    display: none;
+  }
+
   #teaser {
     font-size: x-small;
     justify-content: center;
@@ -622,6 +627,10 @@ html {
 
   .name-bio > p > span > a {
     padding-left: 5%;
+  }
+
+  .off-screen-menu ul {
+    display: none;
   }
 
   #teaser {

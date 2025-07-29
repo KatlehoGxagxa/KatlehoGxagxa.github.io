@@ -666,27 +666,30 @@ hr {
     }
 
     .title-descriptor {
+        margin-bottom: 4px;
         color: rgb(63, 63, 114);
         line-height: 1.3;
         font-family: inherit;
         font-weight: bold;
     }
 
-    #Experience > ul > li > a {
-        text-decoration: none;
-        color: rgb(135, 135, 59)
-    }
-
-    #Experience > ul > li > time {
+    ul .times {
+        display: none;
+        font-size: 0.45rem;
         color: rgb(135, 135, 59);
         font-family: 'Courier New', Courier, monospace;
-        margin-left: 43em;
+        margin-left: 2%;
         font-weight: bold;
+        white-space: normal;
+        line-height: 1.2em;
+        word-break: break-word;
+
     }
+
 
     .description {
         list-style-type: none;
-        padding-left: 3.125em;
+        padding-left: 0;
         font-weight: lighter;
         margin-bottom: 10px;
     }
@@ -712,7 +715,7 @@ hr {
         line-height: 1.3;
         color: rgb(63, 63, 114);
         font-family: inherit;
-        margin-left: 0;
+        margin-left: 2%;
     }
     
     #Essentials > #techstack > ul > li {
@@ -725,7 +728,7 @@ hr {
         line-height: 1.3;
         color: rgb(63, 63, 114);
         font-family: inherit;
-        margin-left: 0;
+        margin-left: 2%;
     }
     
     #Essentials > #skills > ul > li {
@@ -738,7 +741,7 @@ hr {
         line-height: 1.3;
         color: rgb(63, 63, 114);
         font-family: inherit;
-        margin-left: 0;
+        margin-left: 2%;
     }
     
     #Essentials > #languages > ul > li {

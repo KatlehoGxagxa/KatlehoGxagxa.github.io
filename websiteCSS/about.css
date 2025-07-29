@@ -155,20 +155,20 @@ position: relative;
     border-top: transparent;
 }
 
-.blog #interests {
+.interests {
     margin: 0;
     padding: 0.3125em;
     display: flex;
     flex-direction: column;
 }
 
-.blog #headings {
+.headings {
     margin-top: 1%;
     color: rgb(63, 63, 114);
     padding-left: 5%;
 }
 
-.blog > article > #interests > li {
+.interests > li {
     list-style: circle;
     padding-left: 10%;
     list-style-position: inside;
@@ -178,20 +178,20 @@ position: relative;
     color: rgb(63, 63, 114);
 }
 
-.blog > article > #interests > li > #title {
+.title {
     padding-left: 5%;
 }
 
-.blog > article > #interests > li > #authors {
+.authors {
     color: rgb(102, 137, 61);
     padding-left: 4%;
 }
 
-.blog > article > #interests > li > #descriptors {
+.descriptors {
     color:  rgb(102, 137, 61);
 }
 
-.blog > article > #interests > #thoughts {
+.thoughts {
     list-style: none;
     padding: 1.25em;
     padding-left: 2%;

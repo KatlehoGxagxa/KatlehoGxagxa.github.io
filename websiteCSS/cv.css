@@ -17,6 +17,10 @@ html {
     scroll-behavior: smooth;
 }
 
+hr {
+    width: 100%;
+}
+
 /* Hero Banner */
 .hero-banner {
     margin: 0;
@@ -87,33 +91,33 @@ html {
     margin-left: 20%;
 }
 
-.topic > #main-topic > button {
-    margin-top: 6%;
-    margin-left: 24%;
-    padding: 4px;
+#cv-button {
+    margin-top: 45%;
+    margin-left: 185%;
+    padding: 2.5px;
     margin-bottom: 2.5%;
-    width: 18%;
+    width: 135%;
     border-radius: 2%;
     border: transparent;
     color: whitesmoke;
 }
 
-.topic > #main-topic > h1 > button:hover {
+#cv-button:hover {
     cursor: pointer;
 }
 
-.topic > #main-topic > button > a {
+.topic > #main-topic > form > button {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.05em;
+    font-size: medium;
     text-align: center;
     color:  rgb(66, 66, 144);
     padding-left: 3px;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
-.topic > h1 > button > a > i {
+.topic > h1 > form > button {
     padding-right: 8px;
 }
 
@@ -121,7 +125,7 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 61.5em;
     top: 18em;
-    height: 95em;
+    height: 97em;
     margin-left: 17em;
     position: absolute;
     background-color: whitesmoke;
@@ -207,7 +211,7 @@ html {
     font-family: inherit;
 }
 
-#Experience > ul > li {
+.title-descriptor {
     color: rgb(63, 63, 114);
     line-height: 1.3;
     font-family: inherit;
@@ -219,14 +223,18 @@ html {
     color: rgb(135, 135, 59)
 }
 
-#Experience > ul > span {
+#Experience > ul > li > time {
     color: rgb(135, 135, 59);
     font-family: 'Courier New', Courier, monospace;
     margin-left: 43em;
+    font-weight: bold;
 }
 
-#Experience > ul > p {
+.description {
+    list-style-type: none;
     padding-left: 3.125em;
+    font-weight: lighter;
+    margin-bottom: 10px;
 }
 
 #Education {
@@ -238,27 +246,32 @@ html {
     font-family: inherit;
 }
 
-#Education > ul > li {
+/* #Education > ul > li {
     color: rgb(63, 63, 114);
     line-height: 1;
     font-family: inherit;
     font-weight: bold;
-}
+} */
 
-#Education > ul > li > a {
+/* #Education > ul > li > a {
     text-decoration: none;
     color: rgb(135, 135, 59)
+} */
+
+.times {
+    list-style-type: none;
 }
 
-#Education > ul > span {
+#Education > ul > li > time {
     color: rgb(135, 135, 59);
     font-family: 'Courier New', Courier, monospace;
     margin-left: 43em;
+    font-weight: bold;
 }
 
-#Education > ul > p {
+/* #Education > ul > p {
     padding-left: 3.125em;
-}
+} */
 
 #Essentials {
     display: flex;
@@ -393,6 +406,7 @@ html {
 }
 
 .off-screen-menu {
+    display: none;
     background-color: hsl(0 0% 0% / 0.25);
     backdrop-filter: blur(0.5rem);
     height: 40vh;
@@ -411,14 +425,15 @@ html {
     z-index: 1000;
     transform: translateX(100%);
     transition: right 0.3s ease;
-}
+    opacity: 0;
+  }
   
-@supports (backdrop-filter: blur(0.1rem)) {
-    .off-screen-menu {
+  @supports (backdrop-filter: blur(0.1rem)) {
+.off-screen-menu {
       background-color: hsl(0 0% 100% / 0.2);
       backdrop-filter: blur(0.5rem);
     }
-}
+  }
   
 .off-screen-menu ul {
     font-size: larger;
@@ -428,7 +443,7 @@ html {
     text-align: center;
     padding: 20px;
     list-style-type: none;
-}
+  }
   
 .off-screen-menu ul li button  {
   width: 100vw;
@@ -444,7 +459,7 @@ html {
     margin-left: 80%;
     margin-top: 1em;
     font-size: large;
-}
+  }
   
 .off-screen-menu ul li form button {
     color: rgb(157, 178, 124);
@@ -456,8 +471,9 @@ html {
 
 .off-screen-menu.active {
     transform: translateX(0);
+    opacity: 1;
     right: 0;
-}
+  }
   
   
 
@@ -483,6 +499,7 @@ html {
       align-items: center;
       justify-content: space-between;
     }
+    
   
     #menu-toggle {
       font-size: small;
@@ -520,12 +537,12 @@ html {
         /* margin-left: 20%; */
     }
     
-    .topic > #main-topic > button {
-        margin-top: 5%; 
-        margin-left: 15%;
+    #cv-button {
+        margin-top: 18%;
+        margin-left: 90%;
         padding: 2px;
         margin-bottom: 2.5%;
-        width: 45%;
+        width: 120%;
         border-radius: 2%;
         border: transparent;
         color: whitesmoke;
@@ -535,21 +552,21 @@ html {
         cursor: pointer;
     }
     
-    .topic > #main-topic > button > a {
+    .topic > #main-topic > form > button {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: .75em;
+        font-size: x-small;
         text-align: center;
         color:  rgb(66, 66, 144);
         padding-left: 3px;
-        line-height: 1em;
+        line-height: 1.5em;
     }
-    
-    .topic > h1 > button > a > i {
-        padding-right: 7px;
+
+    .topic > h1 > form > button {
+        padding-right: 8px;
     }
-    
+
     .topic > .cv-outline {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: 20em;
@@ -643,55 +660,46 @@ html {
         margin-top: 0;
         padding: 0.313em;
         padding-left: 1.5em;
-        line-height: 1.05;
+        line-height: 1.3;
         color: rgb(63, 63, 114);
         font-family: inherit;
     }
-    
-    #Experience > ul > li {
+
+    .title-descriptor {
         color: rgb(63, 63, 114);
         line-height: 1.3;
         font-family: inherit;
         font-weight: bold;
     }
-    
-    #Experience > ul > span {
-        white-space: wrap;
-        font-size: small;
-        padding: 0;
-        margin: 0;
+
+    #Experience > ul > li > a {
+        text-decoration: none;
+        color: rgb(135, 135, 59)
     }
 
-    #Experience > ul > p {
-        padding: 0;
+    #Experience > ul > li > time {
+        color: rgb(135, 135, 59);
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 43em;
+        font-weight: bold;
     }
-    
+
+    .description {
+        list-style-type: none;
+        padding-left: 3.125em;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+
     #Education {
         margin-top: 0;
         padding: 0.313em;
         padding-left: 1.5em;
-        line-height: 1.05;
-        color: rgb(63, 63, 114);
-        font-family: inherit;
-    }
-    
-    #Education > ul > li {
-        color: rgb(63, 63, 114);
         line-height: 1.3;
+        color: rgb(63, 63, 114);
         font-family: inherit;
-        font-weight: bold;
     }
-    
-    #Education > ul > p {
-        padding: 0;
-    }
-    
-    #Education > ul > span {
-        white-space: wrap;
-        font-size: small;
-        padding: 0;
-        margin: 0;
-    }
+
 
     #Essentials {
         display: flex;
@@ -768,12 +776,12 @@ html {
         /* margin-left: 20%; */
     }
 
-    .topic > #main-topic > button {
-        margin-top: 11%; 
-        margin-left: 30%;
-        padding: 4px;
+    #cv-button {
+        margin-top: 45%;
+        margin-left: 185%;
+        padding: 2.5px;
         margin-bottom: 2.5%;
-        width: 30%;
+        width: 135%;
         border-radius: 2%;
         border: transparent;
         color: whitesmoke;
@@ -783,21 +791,20 @@ html {
         cursor: pointer;
     }
     
-    .topic > #main-topic > button > a {
+    .topic > #main-topic > form > button {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: 1em;
+        font-size: medium;
         text-align: center;
         color:  rgb(66, 66, 144);
         padding-left: 3px;
-        line-height: 1em;
-    }
-    
-    .topic > h1 > button > a > i {
-        padding-right: 7px;
+        line-height: 1.5em;
     }
 
+    .topic > h1 > form > button {
+        padding-right: 8px;
+    }
 
     .topic > .cv-outline {
         margin-left: 2em;
@@ -1048,12 +1055,12 @@ html {
         /* margin-left: 20%; */
     }
 
-    .topic > #main-topic > button {
-        margin-top: 11%; 
-        margin-left: 30%;
-        padding: 4px;
+    #cv-button {
+        margin-top: 45%;
+        margin-left: 185%;
+        padding: 2.5px;
         margin-bottom: 2.5%;
-        width: 30%;
+        width: 135%;
         border-radius: 2%;
         border: transparent;
         color: whitesmoke;
@@ -1063,19 +1070,19 @@ html {
         cursor: pointer;
     }
     
-    .topic > #main-topic > button > a {
+    .topic > #main-topic > form > button {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: 1em;
+        font-size: medium;
         text-align: center;
         color:  rgb(66, 66, 144);
         padding-left: 3px;
-        line-height: 1em;
+        line-height: 1.5em;
     }
-    
-    .topic > h1 > button > a > i {
-        padding-right: 7px;
+
+    .topic > h1 > form > button {
+        padding-right: 8px;
     }
 
 
@@ -1306,35 +1313,35 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     /* margin-left: 20%; */
 }
 
-.topic > #main-topic > button {
-    margin-top: 11%; 
-    margin-left: 30%;
-    padding: 4px;
-    margin-bottom: 2.5%;
-    width: 30%;
-    border-radius: 2%;
-    border: transparent;
-    color: whitesmoke;
-}
+#cv-button {
+        margin-top: 45%;
+        margin-left: 185%;
+        padding: 2.5px;
+        margin-bottom: 2.5%;
+        width: 135%;
+        border-radius: 2%;
+        border: transparent;
+        color: whitesmoke;
+    }
+    
+    .topic > #main-topic > h1 > button:hover {
+        cursor: pointer;
+    }
+    
+    .topic > #main-topic > form > button {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: medium;
+        text-align: center;
+        color:  rgb(66, 66, 144);
+        padding-left: 3px;
+        line-height: 1.5em;
+    }
 
-.topic > #main-topic > h1 > button:hover {
-    cursor: pointer;
-}
-
-.topic > #main-topic > button > a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
-    color:  rgb(66, 66, 144);
-    padding-left: 3px;
-    line-height: 1em;
-}
-
-.topic > h1 > button > a > i {
-    padding-right: 7px;
-}
+    .topic > h1 > form > button {
+        padding-right: 8px;
+    }
 
 
 .topic > .cv-outline {

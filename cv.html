@@ -39,9 +39,9 @@
                 <span></span>
                 <span></span>
             </div>
-            </div>
+        </div>
     
-            <!-- Mobile Menu (hidden by default) -->
+        <!-- Mobile Menu (hidden by default) -->
             <nav class="off-screen-menu" id="mobile-menu">
                 <a href="#" id="close-menu"><i class="fa-solid fa-close"></i></a> <!-- This is the X -->
                 <ul>
@@ -57,7 +57,8 @@
     <main class="topic">
         <section id="main-topic">
             <h1>Curriculum Vitae</h1>
-            <button><a href="https://drive.google.com/file/d/1ItNu0E4xdu6kdBIocqHe3VirvDmB7BGq/view?usp=sharing"><i class="fa-solid fa-download"></i> Download PDF version</a></button>
+            <form action="https://drive.google.com/file/d/1ItNu0E4xdu6kdBIocqHe3VirvDmB7BGq/view?usp=sharing" method="get"><button id="cv-button"><i class="fa-solid fa-download"></i> Download PDF version</button></form>
+            <!-- <button><a href="https://drive.google.com/file/d/1ItNu0E4xdu6kdBIocqHe3VirvDmB7BGq/view?usp=sharing"><i class="fa-solid fa-download"></i> Download PDF version</a></button> -->
         </section>
 
         <section class="cv-outline">
@@ -89,32 +90,35 @@
             <article id="Experience">
                 <h2>Experience</h2>
                 <ul>
-                    <li>Back-end Developer for <a href="https://Agentsofchange.com">Agents of Change South Africa</a> - Germiston</li>
-                    <span>Feb 2025 - Present</span>
-                    <p>I use Django and the Django Rest Framework to develop APIs. The application in development aims to aid High School learners find the courses they qualify for, given their results, across all institutions of higher learning in South Africa.</p><br>
-                    <li>Production Line Worker at Macsteel Service Centres - Roodekop</a></li>
-                    <span>Apr 2024 - Apr 2025</span>
-                    <p>I operated the CNC Plasma machine, the laser, and the bending machines to manufacture steel products to customer specifications.</p>
+                    <li class="title-descriptor">Back-end Developer for <a href="https://Agentsofchange.com">Agents of Change South Africa</a> - Germiston</li>
+                    <li class="times"><time datetime="2025-02">Feb, 2025</time> - <time datetime="2025-07-29">Present</time></li>
+                    <li class="description">I use Django and the Django Rest Framework to develop APIs. The application in development aims to aid High School learners find the courses they qualify for, given their results, across all institutions of higher learning in South Africa.</li>
+                    <li class="title-descriptor">Production Line Worker at Macsteel Service Centres - Roodekop</li>
+                    <li class="times"><time datetime="2024-04">Apr, 2024</time> - <time datetime="2025-04">Apr, 2025</time></li>
+                    <li class="description">I operated the CNC Plasma machine, the laser, and the bending machines to manufacture steel products to customer specifications.</li>
                 </ul>
             </article>
 
             <article id="Education">
                 <h2>Education</h2>
                 <ul>
-                    <li>CS50's Introduction to Programming with Python - Boston, Massachusetts</li>
-                    <span>Aug 2024 - Nov 2024</span>
-                    <p>I took Harvard University's CS50P - Harvard's Division of Continuing Learning, as taught by Prof David J. Malan on edX. </p><br>
-                    <li>Data Analytics - Google Coursera</a></li>
-                    <span>Aug 2023 - Dec 2023</span>
-                    <p>I Completed all the problem sets and a Capstone project. Acquiring invaluable data analysis skills in the process.</p><br>
-                    <li>University of the Witwatersrand, Johannesburg - BEconSc (Economic Science)</a></li>
-                    <span>Feb 2017 - Dec 2020</span>
-                    <p>Perspective-changing courses, world-class lecturers and an environment tailored to productive learning.</p><br>
+                    <li class="title-descriptor">CS50's Introduction to Programming with Python - Boston, Massachusetts</li>
+                    <li class="times"><time datetime="2024-08">Aug, 2024</time> - <time datetime="2024-11">Nov, 2024</time></li>
+                    <li class="description">I took Harvard University's CS50P - Harvard's Division of Continuing Learning, as taught by Prof David J. Malan on edX.</li>
+                    <li class="title-descriptor">Data Analytics - Google Coursera</li>   
+                    <li class="times"><time datetime="2023-08">Aug, 2023</time> - <time datetime="2023-12">Dec, 2023</time></li>
+                    <li class="description">I Completed all the problem sets and a Capstone project. Acquiring invaluable data analysis skills in the process.</li>
+                    <li class="title-descriptor">University of the Witwatersrand, Johannesburg - BEconSc (Economic Science)</li>
+                    <li class="times"><time datetime="2017-02">Feb, 2017</time> - <time datetime="2020-12">Dec, 2020</time></li>
+                    <li class="description">Perspective-changing courses, world-class lecturers and an environment tailored to productive learning.</li>
                 </ul>
-            </article><hr width="100%">
+            </article>        
+            <hr>        
+
             <article id="Essentials">
                 <div id="techstack">
-                <h3>Techstack <br><hr width="100%"></h3>
+                <h3>Techstack <br></h3>
+                <hr>
                     <ul>
                         <li>Python</li>
                         <li>Django and the Django Rest Framework</li>
@@ -123,7 +127,8 @@
                     </ul>
                 </div>
                 <div id="skills">
-                    <h3>Skills<br><hr width="100%"></h3>
+                    <h3>Skills<br></h3>
+                    <hr>
                         <ul>
                             <li>Debugging</li>
                             <li>Code testing</li>
@@ -131,7 +136,8 @@
                         </ul>
                 </div>
                 <div id="languages">
-                    <h3>Languages<br><hr width="100%"></h3>
+                    <h3>Languages<br></h3>
+                    <hr>
                         <ul>
                             <li>English (Fluent)</li>
                             <li>Southern Sotho (Native)</li>

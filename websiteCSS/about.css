@@ -321,7 +321,7 @@ position: relative;
   list-style-type: none;
 }
 
-.off-screen-menu ul li button {
+.off-screen-menu ul li button  {
   width: 100vw;
   padding: 20px;
   border: .1px gray;
@@ -337,7 +337,7 @@ position: relative;
   font-size: large;
 }
 
-.off-screen-menu a button {
+.off-screen-menu ul li form button {
     color: rgb(157, 178, 124);
     text-decoration: none;
     font-size: larger;

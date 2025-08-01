@@ -49,6 +49,27 @@ html {
 }
 
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+
+  }
+
+  :root {
+      /* COLOR VARIABLES */
+  --HERO-BGC: var(--OFFSCREEN-MENU-BUTTON-COLOR);
+  --ICONS-COLOR: whitesmoke;
+  --PROFILE-BGC: rgb(45, 80, 45);
+  --LINKS-COLOR: var(--OFFSCREEN-MENU-BUTTON-COLOR);
+  --HEADINGS-INTERESTS-COLOR: rgb(45, 80, 45) ;
+  --AUTHORS-TITLES-COLOR: rgb(102, 137, 61);
+  --BLOG-BGC: whitesmoke;
+  --SKIRT-COLOR: rgb(105, 91, 91);
+  --OFFSCREEN-MENU-BUTTON-COLOR: rgb(157, 178, 124);
+  }
+}
+
+
 /* --------------------------------------------------------------------------------------- 
                                     Hero Banner
                                   The Navigation Bar 

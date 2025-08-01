@@ -613,6 +613,7 @@ hr {
         color: var(--AUTHORS-TITLES-COLOR);
         padding-left: 3px;
         line-height: 1.5em;
+        margin-left: 55%;
     }
 
     .topic > h1 > form > button {

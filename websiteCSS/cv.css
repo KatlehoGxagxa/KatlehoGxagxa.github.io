@@ -1088,8 +1088,8 @@ hr {
         flex-direction: row;
         align-content: flex-start;
         align-items: flex-start;
-        background-color:  rgb(66, 66, 144);
-        margin: 0;
+        background-color: var(--HEADINGS-INTERESTS-COLOR);    
+        margin: 0;  
         padding-bottom: 20%;
         position: relative;
     }
@@ -1099,8 +1099,8 @@ hr {
         white-space: none;
         margin: 0;
         padding-left: 5%;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
+        color: var(--ICONS-COLOR);
+        font-family: var(--PROFILE-H1-FONT);
         margin-top: 10%;
         white-space: none ;
         /* margin-left: 20%; */
@@ -1114,7 +1114,7 @@ hr {
         width: 135%;
         border-radius: 2%;
         border: transparent;
-        color: whitesmoke;
+        color: var(--BLOG-BGC);
     }
     
     .topic > #main-topic > h1 > button:hover {
@@ -1123,11 +1123,11 @@ hr {
     
     .topic > #main-topic > form > button {
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: medium;
+        font-family: var(--PROFILE-H1-FONT);
+        font-weight: var(--FONT-WEIGHT-BOLD);
+        font-size: var(--FONT-MEDIUM);
         text-align: center;
-        color:  rgb(66, 66, 144);
+        color: var(--AUTHORS-TITLES-COLOR);
         padding-left: 3px;
         line-height: 1.5em;
     }
@@ -1167,11 +1167,11 @@ hr {
     }
     
     .cv-head > #name-institution-contact > #name {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
+        font-family: var(--PROFILE-H1-FONT);
+        font-weight: var(--FONT-WEIGHT-BOLDER);
         font-size: 2rem;
         padding-top: 0.8em;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         white-space: nowrap;
         margin-top: 0;
         margin-left: 45%;
@@ -1179,9 +1179,9 @@ hr {
     
     .cv-head > #name-institution-contact > #institution {
         font-family: inherit;
-        font-weight: bold;
-        font-size: small;
-        color: rgb(63, 63, 114);
+        font-weight: var(--FONT-WEIGHT-BOLD);
+        font-size: var(--FONT-SMALL);
+        color: var(--AUTHORS-TITLES-COLOR);
         white-space: wrap;
         margin-top: 0;
         margin-left: 9%;
@@ -1196,17 +1196,17 @@ hr {
     
     #contact > ul > li > a {
         text-decoration: none;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         margin: 0;
-        font-size: small;
+        font-size: var(--FONT-SMALL);
     }
     
     #contact > ul > li > a > span {
         text-decoration: none;
-        color: rgb(135, 135, 59);
+        color: var(--LINKS-COLOR);
         font-family: inherit;
         padding-left: 1em;
-        font-size: small;
+        font-size: var(--FONT-SMALL);
     }
 
     .topic > .cv-outline > #summary {
@@ -1214,7 +1214,7 @@ hr {
         padding-left: 1.5em;
         line-height: 1.2;
         margin-top: 0;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
     }
     
@@ -1223,25 +1223,25 @@ hr {
         padding: 1em;
         padding-left: 1.5em;
         line-height: 1.2;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
     }
     
     #Experience > ul > li {
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         line-height: 1.2;
         font-family: inherit;
-        font-weight: bold;
+        font-weight: var(--FONT-WEIGHT-BOLD);
     }
     
     #Experience > ul > li > a {
         text-decoration: none;
-        color: rgb(135, 135, 59)
+        color: var(--LINKS-COLOR);
     }
     
     #Experience > ul > span {
-        color: rgb(135, 135, 59);
-        font-family: 'Courier New', Courier, monospace;
+        color: var(--LINKS-COLOR);
+        font-family: var(--MENU-FONT);
         margin-left: 0;
     }
     
@@ -1254,25 +1254,25 @@ hr {
         padding: 1em;
         padding-left: 1.5em;
         line-height: 1.2;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
     }
     
     #Education > ul > li {
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         line-height: 1;
         font-family: inherit;
-        font-weight: bold;
+        font-weight: var(--FONT-WEIGHT-BOLD);
     }
     
     #Education > ul > li > a {
         text-decoration: none;
-        color: rgb(135, 135, 59)
+        color: var(--LINKS-COLOR);
     }
     
     #Education > ul > span {
-        color: rgb(135, 135, 59);
-        font-family: 'Courier New', Courier, monospace;
+        color: var(--LINKS-COLOR);
+        font-family: var(--MENU-FONT);
         margin-left: 0;
     }
     
@@ -1289,7 +1289,7 @@ hr {
     #Essentials > #techstack{
         padding: 0.5em;
         line-height: 1.3;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
         margin-left: 0;
     }
@@ -1302,7 +1302,7 @@ hr {
     #Essentials > #skills {
         padding: 0.5em;
         line-height: 1.3;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
         margin-left: 0;
     }
@@ -1315,7 +1315,7 @@ hr {
     #Essentials > #languages {
         padding: 0.5em;
         line-height: 1.3;
-        color: rgb(63, 63, 114);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
         margin-left: 21.875;
     }
@@ -1346,7 +1346,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     flex-direction: row;
     align-content: flex-start;
     align-items: flex-start;
-    background-color:  rgb(66, 66, 144);
+    background-color:  var(--HEADINGS-INTERESTS-COLOR);
     margin: 0;
     padding-bottom: 20%;
     position: relative;
@@ -1357,11 +1357,10 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     white-space: none;
     margin: 0;
     padding-left: 5%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ICONS-COLOR);
+    font-family: var(--PROFILE-H1-FONT);
     margin-top: 10%;
     white-space: none ;
-    /* margin-left: 20%; */
 }
 
 #cv-button {
@@ -1372,7 +1371,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
         width: 135%;
         border-radius: 2%;
         border: transparent;
-        color: whitesmoke;
+        color: var(--BLOG-BGC);
     }
     
     .topic > #main-topic > h1 > button:hover {
@@ -1381,11 +1380,11 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     
     .topic > #main-topic > form > button {
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: medium;
+        font-family: var(--PROFILE-H1-FONT);
+        font-weight: var(--FONT-WEIGHT-BOLD);
+        font-size: var(--FONT-MEDIUM);
         text-align: center;
-        color:  rgb(66, 66, 144);
+        color:  var(--AUTHORS-TITLES-COLOR);
         padding-left: 3px;
         line-height: 1.5em;
     }
@@ -1425,11 +1424,11 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 .cv-head > #name-institution-contact > #name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-family: var(--PROFILE-H1-FONT);
+    font-weight: var(--FONT-WEIGHT-BOLDER);
     font-size: 2rem;
     padding-top: 0.8em;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     white-space: nowrap;
     margin-top: 0;
     margin-left: 45%;
@@ -1437,9 +1436,9 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 
 .cv-head > #name-institution-contact > #institution {
     font-family: inherit;
-    font-weight: bold;
-    font-size: small;
-    color: rgb(63, 63, 114);
+    font-weight: var(--FONT-WEIGHT-BOLD);
+    font-size: var(--FONT-SMALL);
+    color: var(--AUTHORS-TITLES-COLOR);
     white-space: wrap;
     margin-top: 0;
     margin-left: 9%;
@@ -1454,17 +1453,17 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 
 #contact > ul > li > a {
     text-decoration: none;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     margin: 0;
-    font-size: small;
+    font-size: var(--FONT-SMALL);
 }
 
 #contact > ul > li > a > span {
     text-decoration: none;
-    color: rgb(135, 135, 59);
+    color: var(--LINKS-COLOR);
     font-family: inherit;
     padding-left: 1em;
-    font-size: small;
+    font-size: var(--FONT-SMALL);
 }
 
 .topic > .cv-outline > #summary {
@@ -1472,7 +1471,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     padding-left: 1.5em;
     line-height: 1.2;
     margin-top: 0;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: inherit;
 }
 
@@ -1481,25 +1480,25 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     padding: 1em;
     padding-left: 1.5em;
     line-height: 1.2;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: inherit;
 }
 
 #Experience > ul > li {
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     line-height: 1.2;
     font-family: inherit;
-    font-weight: bold;
+    font-weight: var(--FONT-WEIGHT-BOLD);
 }
 
 #Experience > ul > li > a {
     text-decoration: none;
-    color: rgb(135, 135, 59)
+    color: var(--LINKS-COLOR);
 }
 
 #Experience > ul > span {
-    color: rgb(135, 135, 59);
-    font-family: 'Courier New', Courier, monospace;
+    color: var(--LINKS-COLOR);
+    font-family: var(--LINKS-COLOR);
     margin-left: 0;
 }
 
@@ -1512,25 +1511,25 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     padding: 1em;
     padding-left: 1.5em;
     line-height: 1.2;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: inherit;
 }
 
 #Education > ul > li {
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     line-height: 1;
     font-family: inherit;
-    font-weight: bold;
+    font-weight: var(--FONT-WEIGHT-BOLD);
 }
 
 #Education > ul > li > a {
     text-decoration: none;
-    color: rgb(135, 135, 59)
+    color: var(--LINKS-COLOR);
 }
 
 #Education > ul > span {
-    color: rgb(135, 135, 59);
-    font-family: 'Courier New', Courier, monospace;
+    color: var(--LINKS-COLOR);
+    font-family: var(--MENU-FONT);
     margin-left: 0;
 }
 
@@ -1547,7 +1546,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 #Essentials > #techstack{
     padding: 0.5em;
     line-height: 1.3;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: inherit;
     margin-left: 0;
 }
@@ -1560,7 +1559,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 #Essentials > #skills {
     padding: 0.5em;
     line-height: 1.3;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: inherit;
     margin-left: 0;
 }
@@ -1573,7 +1572,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 #Essentials > #languages {
     padding: 0.5em;
     line-height: 1.3;
-    color: rgb(63, 63, 114);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: inherit;
     margin-left: 21.875;
 }

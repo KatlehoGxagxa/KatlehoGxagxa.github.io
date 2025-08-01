@@ -1,27 +1,81 @@
 /* Global Styles */
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+:root {
+  /* COLOR VARIABLES */
+  --HERO-BGC: rgb(171, 171, 217);
+  --ICONS-COLOR: white;
+  --PROFILE-BGC: rgb(66, 66, 144);
+  --LINKS-COLOR: rgb(211, 211, 90);
+  --HEADINGS-INTERESTS-COLOR: rgb(63, 63, 114);
+  --AUTHORS-TITLES-COLOR: rgb(102, 137, 61);
+  --BLOG-BGC: whitesmoke;
+  --SKIRT-COLOR: rgb(105, 91, 91);
+  --OFFSCREEN-MENU-BUTTON-COLOR: rgb(157, 178, 124);
+  --CONTACT-COLOR: rgb(135, 135, 59);
+
+  /* FONT VARIABLES */
+  --MENU-FONT: 'Courier New', Courier, monospace;
+  --PROFILE-H1-FONT: Arial, Helvetica, sans-serif;
+
+  /* FONT SIZES */
+  --FONT-LARGE: large;
+  --FONT-MEDIUM: medium;
+  --FONT-SMALLER: smaller;
+  --FONT-SMALL: small;
+  --FONT-XSMALL: x-small;
+  --FONT-XLARGE: x-large;
+  --FONT-XXLARGE: xx-large;
+
+  /* FONT SIZES */
+  --FONT-WEIGHT-BOLD: bold;
+  --FONT-WEIGHT-BOLDER: bolder;
+  --FONT-WEIGHT-LIGHTER: lighter;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+
+  }
+
+  :root {
+      /* COLOR VARIABLES */
+  --HERO-BGC: var(--OFFSCREEN-MENU-BUTTON-COLOR);
+  --ICONS-COLOR: whitesmoke;
+  --PROFILE-BGC: rgb(45, 80, 45);
+  --LINKS-COLOR: var(--OFFSCREEN-MENU-BUTTON-COLOR);
+  --HEADINGS-INTERESTS-COLOR: rgb(45, 80, 45) ;
+  --AUTHORS-TITLES-COLOR: rgb(102, 137, 61);
+  --BLOG-BGC: whitesmoke;
+  --SKIRT-COLOR: rgb(105, 91, 91);
+  --OFFSCREEN-MENU-BUTTON-COLOR: rgb(157, 178, 124);
+  }
+
 }
 
 /* Hero Banner */
 .hero-banner {
-  margin: 0;
+  /* margin: 0; */
   padding: 0.01em;
-  background-color: rgb(171, 171, 217);
+  background-color: var(--HERO-BGC);
   display: flex;
   justify-content: space-between;
 }
@@ -34,15 +88,13 @@ html {
 #socials ul li {
   padding: 0.2em;
   width: max-content;
-  flex-shrink: 1;
-  flex-wrap: wrap;
 }
 
 #socials ul li a {
   margin-left: 1.5em;
   text-decoration: none;
-  font-size: large;
-  color: white;
+  font-size: var(--FONT-LARGE);
+  color: var(--ICONS-COLOR);
 }
 
 #menu ul {
@@ -55,18 +107,16 @@ html {
   text-align: center;
   padding: 0.2em;
   width: max-content;
-  flex-shrink: 1;
-  flex-wrap: wrap;
 }
 
 #menu ul li a {
   margin-left: 1em;
   padding: 0.2em;
   text-decoration: none;
-  font-size: medium;
-  font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
-  color: white;
+  font-size: var(--FONT-MEDIUM);
+  font-weight: var(--FONT-WEIGHT-BOLD);
+  font-family: var(--MENU-FONT);
+  color: var(--ICONS-COLOR);
 }
 
 /* Profile Section */
@@ -75,7 +125,7 @@ html {
   padding: 1.5em;
   padding-left: 12em;
   padding-bottom: 3em;
-  background-color: rgb(66, 66, 144);
+  background-color: var(--HEADINGS-INTERESTS-COLOR);
   width: auto;
   display: flex;
   flex-wrap: wrap;
@@ -102,59 +152,58 @@ html {
   align-items: center;
   margin-left: 1.5em;
   position: relative;
-  /* word-spacing: 0.5em; */
 }
 
 .profile > .name-bio > h1 {
   font-size: 3rem;    
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--PROFILE-H1-FONT);
   font-weight: 400;
-  color: white;
+  color: var(--ICONS-COLOR);
   white-space: nowrap;
 }
 
 .name-bio > p > span {
   font-family: inherit;
-  font-weight: lighter;
-  font-size: large;
+  font-weight: var(--FONT-WEIGHT-LIGHTER);
+  font-size: var(--FONT-LARGE);
   text-align: center;
   line-height: 1;
-  color: white;
+  color: var(--ICONS-COLOR);
   margin-left: 0.5em;
 }
 
 .profile > div > p > span > a {
   text-decoration: none;
-  color: rgb(211, 211, 90);
+  color: var(--LINKS-COLOR);
   margin-left: 5em;
-  font-weight: bold;
+  font-weight: var(--FONT-WEIGHT-BOLD);
 }
 
 #teaser {
-  font-size: medium;
+  font-size: var(--FONT-MEDIUM);
   text-align: center;
-  font-weight: lighter;
-  color: white;
+  font-weight: var(--FONT-WEIGHT-LIGHTER);
+  color: var(--ICONS-COLOR);
   line-height: 1.4em;
 }
 
 #teaser > a {
   text-decoration: none;
-  color: rgb(211, 211, 90);
-  font-weight: bold;
+  color: var(--LINKS-COLOR);
+  font-weight: var(--FONT-WEIGHT-BOLD);
 }
 
 /* News Section */
 #Latest-News {
   padding: 1.5em;
-  background-color: whitesmoke;
+  background-color: var(--BLOG-BGC);
 }
 
 #Latest-News > h3 {
   text-align: center;
-  font-size: x-large;
+  font-size: var(--FONT-XLARGE);
   font-weight: 900;
-  color: rgb(34, 34, 92);
+  color: var(--HEADINGS-INTERESTS-COLOR);
   margin-bottom: 2em;
 }
 
@@ -165,23 +214,23 @@ html {
 }
 
 .article {
-  background-color: white;
+  background-color: var(--ICONS-COLOR);
   padding: 3em;
   width: auto;
 }
 
 .article > span {
   font-size: 1rem;
-  color: rgb(34, 34, 92);
+  color: var(--HEADINGS-INTERESTS-COLOR);
 }
 
 .article > span > a {
-  color: rgb(34, 34, 92);
+  color: var(--AUTHORS-TITLES-COLOR);
   text-decoration: none;
 }
 
 .article p {
-  color: rgb(211, 211, 90);
+  color: var(--LINKS-COLOR);
   padding-left: 25em;
   white-space: nowrap;
 }
@@ -189,14 +238,14 @@ html {
 /* Footer */
 #skirt {
   padding: 0.2em;
-  background-color: whitesmoke;
+  background-color: var(--BLOG-BGC);
 }
 
 #skirt > p {
-  color: rgb(105, 91, 91);
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: smaller;
+  color: var(--SKIRT-COLOR);
+  font-family: var(--MENU-FONT);
+  font-weight: var(--FONT-WEIGHT-BOLD);
+  font-size: var(--FONT-SMALLER);
   margin-left: 1em;
   margin-top: 0.5em;
 }
@@ -206,11 +255,11 @@ html {
   position: fixed;
   bottom: 1.875em;
   right: 1.875em;
-  font-size: x-large;
+  font-size: var(--FONT-XLARGE);
   background-color: transparent;
   border: none;
-  color: rgb(71, 71, 144);
-  font-weight: bolder;
+  color: var(--HEADINGS-INTERESTS-COLOR);
+  font-weight: var(--FONT-WEIGHT-BOLD);
   border-radius: 0.02em;
 }
 
@@ -222,7 +271,7 @@ html {
 #ham-menu {
   padding: 1em;
   display: none;
-  background-color: rgb(171, 171, 217);
+  background-color: var(--HERO-BGC);
 }
 
 .ham-menu {
@@ -237,7 +286,7 @@ html {
   height: 4px;
   width: 70%;
   margin-top: 10%;
-  background-color: white;
+  background-color: var(--ICONS-COLOR);
   border-radius: 25px;
   position: absolute;
   left: 50%;
@@ -296,7 +345,7 @@ html {
 }
 
 .off-screen-menu ul {
-  font-size: larger;
+  font-size: var(--FONT-LARGE);
   margin: 20%;
   margin-top: 4%;
   align-items: center;
@@ -318,15 +367,15 @@ html {
   color: hsl(0 0% 0% / .7);
   margin-left: 80%;
   margin-top: 1em;
-  font-size: large;
+  font-size: var(--FONT-LARGE);
 }
 
 .off-screen-menu ul li form button {
-    color: rgb(157, 178, 124);
+    color: var(--OFFSCREEN-MENU-BUTTON-COLOR);
     text-decoration: none;
-    font-size: larger;
+    font-size: var(--FONT-LARGE);
     font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--MENU-FONT);
 }
 
 .off-screen-menu.active {
@@ -360,16 +409,16 @@ html {
   }
 
   #menu-toggle {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
   }
 
   #mobile-menu ul {
     list-style-type: none;
-    font-size: medium;
+    font-size: var(--FONT-MEDIUM);
   }
 
   .ham-menu span {
-    font-size: x-small;
+    font-size: var(--FONT-XSMALL);
   }
 
   .profile {
@@ -397,7 +446,7 @@ html {
   }
 
   .name-bio > p > span {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
     line-height: 1;
     white-space: nowrap;
     align-items: center;
@@ -408,7 +457,7 @@ html {
   }
 
   #teaser {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
     justify-content: center;
   }
 
@@ -417,12 +466,12 @@ html {
   }
 
   .article span {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
   }
 
   .article p {
     padding-left: 0;
-    font-size: smaller;
+    font-size: var(--FONT-SMALLER);
   }
 
   #Latest-News > #updates {
@@ -431,11 +480,11 @@ html {
   }
 
   #Latest-News h3 {
-    font-size: medium;
+    font-size: var(--FONT-MEDIUM);
   }
 
   #skirt > p {
-    font-size: x-small;
+    font-size: var(--FONT-XSMALL);
   }
 }
 
@@ -475,7 +524,7 @@ html {
   }
 
   .name-bio > p > span {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
     line-height: 1;
     white-space: nowrap;
     align-items: center;
@@ -486,7 +535,7 @@ html {
   }
 
   #teaser {
-    font-size: x-small;
+    font-size: var(--FONT-XSMALL);
     justify-content: center;
   }
 
@@ -495,12 +544,12 @@ html {
   }
 
   .article span {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
   }
 
   .article p {
     padding-left: 0;
-    font-size: smaller;
+    font-size: var(--FONT-SMALLER);
   }
 
   #Latest-News > #updates {
@@ -509,17 +558,17 @@ html {
   }
 
   #Latest-News h3 {
-    font-size: medium;
+    font-size: var(--FONT-MEDIUM);
   }
 
   #skirt > p {
-    font-size: x-small;
+    font-size: var(--FONT-XSMALL);
   }
 
   .article p {
     padding-left: 0;
     margin-left: 0;
-    font-size: smaller;
+    font-size: var(--FONT-SMALLER);
   }
 }
 
@@ -560,7 +609,7 @@ html {
   }
 
   .name-bio > p > span {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
     line-height: 1;
     white-space: nowrap;
     align-items: center;
@@ -575,7 +624,7 @@ html {
   }
 
   #teaser {
-    font-size: x-small;
+    font-size: var(--FONT-XSMALL);
     justify-content: center;
   }
 
@@ -621,7 +670,7 @@ html {
   }
 
   .name-bio > p > span {
-    font-size: medium;
+    font-size: var(--FONT-MEDIUM);
     line-height: 1;
     white-space: nowrap;
     align-items: center;
@@ -636,12 +685,12 @@ html {
   }
 
   #teaser {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
     justify-content: center;
   }
 
   .article {
-    font-size: small;
+    font-size: var(--FONT-SMALL);
   }
 
 }

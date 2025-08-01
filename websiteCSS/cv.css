@@ -682,7 +682,7 @@ hr {
     
     .cv-head > #name-institution-contact > #contact > ul {
         list-style: none;
-        font-size: var(--FONT-XSMALL);
+        font-size: var(--FONT-SMALL);
         margin-left: 0;
         margin-bottom: 1em;
     }

@@ -641,15 +641,15 @@ hr {
     }
     
     .cv-head > img {
-        max-width: 25%;
+        max-width: 21%;
         height: auto;
         border-style: none;
         border-radius: 1%;
-        width: auto;
+        width: fit-content;
         vertical-align: middle;
         object-fit: cover;
         margin-top: 0;
-        margin-left: 28.2%;
+        margin-left: 32.5%;
     }
     
     .cv-head > #name-institution-contact > #name {

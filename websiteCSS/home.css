@@ -214,7 +214,7 @@ html {
 }
 
 .article > span > a {
-  color: var(--AUTHORS-TITLES-COLOR);
+  color: var(--HEADINGS-INTERESTS-COLOR);
   text-decoration: none;
 }
 

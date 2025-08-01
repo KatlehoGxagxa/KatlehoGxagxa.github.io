@@ -166,7 +166,7 @@ hr {
     font-weight: var(--FONT-WEIGHT-BOLD);
     font-size: var(--FONT-MEDIUM);
     text-align: center;
-    color:  var(--AUTHORS-TITLES-COLOR);
+    color:  var(--HEADINGS-INTERESTS-COLOR);
     padding-left: 3px;
     line-height: 1.5em;
 }
@@ -210,7 +210,7 @@ hr {
     font-weight: var(--FONT-WEIGHT-BOLDER);
     font-size: 2.5rem;
     padding-top: 0.8em;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     white-space: nowrap;
     margin-top: 0;
     margin-left: 35%;
@@ -219,7 +219,7 @@ hr {
 .cv-head > #name-institution-contact > #institution {
     font-family: inherit;
     font-weight: var(--FONT-WEIGHT-BOLD);
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     white-space: nowrap;
     margin-top: 0;
     margin-left: 7%;
@@ -237,12 +237,12 @@ hr {
 
 #contact > ul > li > a {
     text-decoration: none;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
 }
 
 #contact > ul > li > a > span {
     text-decoration: none;
-    color: var(--LINKS-COLOR);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: inherit;
     padding-left: 1em;
 }
@@ -252,7 +252,7 @@ hr {
     padding-left: 1.5em;
     line-height: 1.3;
     margin-top: 0;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     font-family: inherit;
 }
 
@@ -261,12 +261,12 @@ hr {
     padding: 0.313em;
     padding-left: 1.5em;
     line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     font-family: inherit;
 }
 
 .title-descriptor {
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     line-height: 1.3;
     font-family: inherit;
     font-weight: var(--FONT-WEIGHT-BOLD);
@@ -274,11 +274,11 @@ hr {
 
 #Experience > ul > li > a {
     text-decoration: none;
-    color: var(--LINKS-COLOR);
+    color: var(--AUTHORS-TITLES-COLOR);
 }
 
 #Experience > ul > li > time {
-    color: var(--LINKS-COLOR);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: var(--MENU-FONT);
     margin-left: 43em;
     font-weight: var(--FONT-WEIGHT-BOLD);
@@ -296,7 +296,7 @@ hr {
     padding: 0.313em;
     padding-left: 1.5em;
     line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     font-family: inherit;
 }
 
@@ -317,7 +317,7 @@ hr {
 }
 
 #Education > ul > li > time {
-    color: var(--LINKS-COLOR);
+    color: var(--AUTHORS-TITLES-COLOR);
     font-family: var(--MENU-FONT);
     margin-left: 43em;
     font-weight: var(--FONT-WEIGHT-BOLD);
@@ -336,7 +336,7 @@ hr {
 #Essentials > #techstack{
     padding: 0.5em;
     line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     font-family: inherit;
     margin-left: 3.125em;
 }
@@ -349,7 +349,7 @@ hr {
 #Essentials > #skills {
     padding: 0.5em;
     line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     font-family: inherit;
     margin-left: 21.875;
 }
@@ -362,7 +362,7 @@ hr {
 #Essentials > #languages {
     padding: 0.5em;
     line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     font-family: inherit;
     margin-left: 21.875;
 }
@@ -398,7 +398,7 @@ hr {
     font-size: var(--FONT-XLARGE);
     background-color: transparent;
     border: none;
-    color: var(--AUTHORS-TITLES-COLOR);
+    color: var(--HEADINGS-INTERESTS-COLOR);
     font-weight: var(--FONT-WEIGHT-BOLDER);
     border-radius: 0.02em;
 }
@@ -610,7 +610,7 @@ hr {
         font-weight: var(--FONT-WEIGHT-BOLD);
         font-size: var(--FONT-XSMALL);
         text-align: center;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         padding-left: 3px;
         line-height: 1.5em;
         margin-left: 55%;
@@ -657,7 +657,7 @@ hr {
         font-weight: var(--FONT-WEIGHT-BOLDER);
         font-size: 1rem;
         padding-top: 0.8em;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         white-space: nowrap;
         margin-top: 0;
         margin-left: 35%;
@@ -669,7 +669,7 @@ hr {
         font-weight: var(--FONT-WEIGHT-BOLD);
         font-size: var(--FONT-SMALLER);
         line-height: .5em;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         white-space: nowrap;
         margin-top: 0;    
     }
@@ -689,14 +689,14 @@ hr {
     
     #contact > ul > li > a {
         text-decoration: none;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         margin: 0;
         font-size: var(--FONT-SMALL);
     }
     
     #contact > ul > li > a > span {
         text-decoration: none;
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
         padding-left: 1em;
         font-size: var(--FONT-SMALLER);
@@ -708,7 +708,7 @@ hr {
         padding-left: 1.5em;
         line-height: 1em;
         margin-top: 0;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         font-size: var(--FONT-SMALL);
     }
@@ -718,14 +718,14 @@ hr {
         padding: 0.313em;
         padding-left: 1.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         font-size: var(--FONT-SMALL);
     }
 
     .title-descriptor {
         margin-bottom: 4px;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         line-height: 1.3;
         font-family: inherit;
         font-weight: var(--FONT-WEIGHT-BOLD);
@@ -748,7 +748,7 @@ hr {
         padding: 0.313em;
         padding-left: 1.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         font-size: var(--FONT-SMALL);
     }
@@ -763,7 +763,7 @@ hr {
     #Essentials > #techstack{
         padding: 0;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 2%;
         font-size: var(--FONT-SMALL);
@@ -777,7 +777,7 @@ hr {
     #Essentials > #skills {
         padding: 0;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 2%;
         font-size: var(--FONT-SMALL);
@@ -791,7 +791,7 @@ hr {
     #Essentials > #languages {
         padding: 0;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 2%;
         font-size: var(--FONT-SMALL);
@@ -815,7 +815,7 @@ hr {
     }
 
     .topic > #main-topic {
-        background-color:  var(--AUTHORS-TITLES-COLOR);
+        background-color:  var(--HEADINGS-INTERESTS-COLOR);
         padding-bottom: 20%;
         position: relative;
     }
@@ -853,7 +853,7 @@ hr {
         font-weight: var(--FONT-WEIGHT-BOLD);
         font-size: var(--FONT-MEDIUM);
         text-align: center;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         padding-left: 3px;
         line-height: 1.5em;
     }
@@ -895,7 +895,7 @@ hr {
         font-weight: var(--FONT-WEIGHT-BOLDER);
         font-size: 2rem;
         padding-top: 0.8em;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         white-space: nowrap;
         margin-top: 0;
         margin-left: 45%;
@@ -905,7 +905,7 @@ hr {
         font-family: inherit;
         font-weight: var(--FONT-WEIGHT-BOLD);
         font-size: var(--FONT-SMALL);
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         white-space: wrap;
         margin-top: 0;
         margin-left: 9%;
@@ -920,14 +920,14 @@ hr {
     
     #contact > ul > li > a {
         text-decoration: none;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         margin: 0;
         font-size: var(--FONT-SMALL);
     }
     
     #contact > ul > li > a > span {
         text-decoration: none;
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
         padding-left: 1em;
         font-size: var(--FONT-SMALL);
@@ -938,7 +938,7 @@ hr {
         padding-left: 1.5em;
         line-height: 1.2;
         margin-top: 0;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
     }
     
@@ -947,12 +947,12 @@ hr {
         padding: 1em;
         padding-left: 1.5em;
         line-height: 1.2;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
     }
     
     #Experience > ul > li {
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         line-height: 1.2;
         font-family: inherit;
         font-weight: var(--FONT-WEIGHT-BOLD);
@@ -960,11 +960,11 @@ hr {
     
     #Experience > ul > li > a {
         text-decoration: none;
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
     }
     
     #Experience > ul > span {
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: var(--MENU-FONT);
         margin-left: 0;
     }
@@ -978,12 +978,12 @@ hr {
         padding: 1em;
         padding-left: 1.5em;
         line-height: 1.2;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
     }
     
     #Education > ul > li {
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         line-height: 1;
         font-family: inherit;
         font-weight: var(--FONT-WEIGHT-BOLD);
@@ -991,11 +991,11 @@ hr {
     
     #Education > ul > li > a {
         text-decoration: none;
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
     }
     
     #Education > ul > span {
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: var(--MENU-FONT);
         margin-left: 0;
     }
@@ -1013,7 +1013,7 @@ hr {
     #Essentials > #techstack{
         padding: 0.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 0;
     }
@@ -1026,7 +1026,7 @@ hr {
     #Essentials > #skills {
         padding: 0.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 0;
     }
@@ -1039,7 +1039,7 @@ hr {
     #Essentials > #languages {
         padding: 0.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 21.875;
     }
@@ -1127,7 +1127,7 @@ hr {
         font-weight: var(--FONT-WEIGHT-BOLD);
         font-size: var(--FONT-MEDIUM);
         text-align: center;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         padding-left: 3px;
         line-height: 1.5em;
     }
@@ -1171,7 +1171,7 @@ hr {
         font-weight: var(--FONT-WEIGHT-BOLDER);
         font-size: 2rem;
         padding-top: 0.8em;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         white-space: nowrap;
         margin-top: 0;
         margin-left: 45%;
@@ -1181,7 +1181,7 @@ hr {
         font-family: inherit;
         font-weight: var(--FONT-WEIGHT-BOLD);
         font-size: var(--FONT-SMALL);
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         white-space: wrap;
         margin-top: 0;
         margin-left: 9%;
@@ -1196,14 +1196,14 @@ hr {
     
     #contact > ul > li > a {
         text-decoration: none;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         margin: 0;
         font-size: var(--FONT-SMALL);
     }
     
     #contact > ul > li > a > span {
         text-decoration: none;
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: inherit;
         padding-left: 1em;
         font-size: var(--FONT-SMALL);
@@ -1214,7 +1214,7 @@ hr {
         padding-left: 1.5em;
         line-height: 1.2;
         margin-top: 0;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
     }
     
@@ -1223,12 +1223,12 @@ hr {
         padding: 1em;
         padding-left: 1.5em;
         line-height: 1.2;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
     }
     
     #Experience > ul > li {
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         line-height: 1.2;
         font-family: inherit;
         font-weight: var(--FONT-WEIGHT-BOLD);
@@ -1236,11 +1236,11 @@ hr {
     
     #Experience > ul > li > a {
         text-decoration: none;
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
     }
     
     #Experience > ul > span {
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: var(--MENU-FONT);
         margin-left: 0;
     }
@@ -1254,12 +1254,12 @@ hr {
         padding: 1em;
         padding-left: 1.5em;
         line-height: 1.2;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
     }
     
     #Education > ul > li {
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         line-height: 1;
         font-family: inherit;
         font-weight: var(--FONT-WEIGHT-BOLD);
@@ -1267,11 +1267,11 @@ hr {
     
     #Education > ul > li > a {
         text-decoration: none;
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
     }
     
     #Education > ul > span {
-        color: var(--LINKS-COLOR);
+        color: var(--AUTHORS-TITLES-COLOR);
         font-family: var(--MENU-FONT);
         margin-left: 0;
     }
@@ -1289,7 +1289,7 @@ hr {
     #Essentials > #techstack{
         padding: 0.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 0;
     }
@@ -1302,7 +1302,7 @@ hr {
     #Essentials > #skills {
         padding: 0.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 0;
     }
@@ -1315,7 +1315,7 @@ hr {
     #Essentials > #languages {
         padding: 0.5em;
         line-height: 1.3;
-        color: var(--AUTHORS-TITLES-COLOR);
+        color: var(--HEADINGS-INTERESTS-COLOR);
         font-family: inherit;
         margin-left: 21.875;
     }
@@ -1341,29 +1341,29 @@ hr {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1400px)
 and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 /* iPad landscape styles */
-.topic > #main-topic {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    align-items: flex-start;
-    background-color:  var(--HEADINGS-INTERESTS-COLOR);
-    margin: 0;
-    padding-bottom: 20%;
-    position: relative;
-}
+    .topic > #main-topic {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        align-items: flex-start;
+        background-color:  var(--HEADINGS-INTERESTS-COLOR);
+        margin: 0;
+        padding-bottom: 20%;
+        position: relative;
+    }
 
-.topic > #main-topic > h1 {
-    font-size: 2em;
-    white-space: none;
-    margin: 0;
-    padding-left: 5%;
-    color: var(--ICONS-COLOR);
-    font-family: var(--PROFILE-H1-FONT);
-    margin-top: 10%;
-    white-space: none ;
-}
+    .topic > #main-topic > h1 {
+        font-size: 2em;
+        white-space: none;
+        margin: 0;
+        padding-left: 5%;
+        color: var(--ICONS-COLOR);
+        font-family: var(--PROFILE-H1-FONT);
+        margin-top: 10%;
+        white-space: none ;
+    }
 
-#cv-button {
+    #cv-button {
         margin-top: 45%;
         margin-left: 185%;
         padding: 2.5px;
@@ -1384,7 +1384,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
         font-weight: var(--FONT-WEIGHT-BOLD);
         font-size: var(--FONT-MEDIUM);
         text-align: center;
-        color:  var(--AUTHORS-TITLES-COLOR);
+        color:  var(--HEADINGS-INTERESTS-COLOR);
         padding-left: 3px;
         line-height: 1.5em;
     }
@@ -1393,204 +1393,203 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
         padding-right: 8px;
     }
 
+    .topic > .cv-outline {
+        margin-left: 2em;
+        width: 93%;
+        height: auto;
+        margin-top: .5%;
+    }
 
-.topic > .cv-outline {
-    margin-left: 2em;
-    width: 93%;
-    height: auto;
-    margin-top: .5%;
-}
+    .cv-head {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        line-height: 1;
+        height: auto;
+        padding: 0;
+        background-color: rgb(210, 208, 208);
+    }
 
-.cv-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    line-height: 1;
-    height: auto;
-    padding: 0;
-    background-color: rgb(210, 208, 208);
-}
+    .cv-head > img {
+        max-width: 25%;
+        height: auto;
+        border-style: none;
+        border-radius: 1%;
+        width: auto;
+        vertical-align: middle;
+        object-fit: cover;
+        margin-top: 0;
+        margin-left: 28.2%;
+    }
 
-.cv-head > img {
-    max-width: 25%;
-    height: auto;
-    border-style: none;
-    border-radius: 1%;
-    width: auto;
-    vertical-align: middle;
-    object-fit: cover;
-    margin-top: 0;
-    margin-left: 28.2%;
-}
+    .cv-head > #name-institution-contact > #name {
+        font-family: var(--PROFILE-H1-FONT);
+        font-weight: var(--FONT-WEIGHT-BOLDER);
+        font-size: 2rem;
+        padding-top: 0.8em;
+        color: var(--HEADINGS-INTERESTS-COLOR);
+        white-space: nowrap;
+        margin-top: 0;
+        margin-left: 45%;
+    }
 
-.cv-head > #name-institution-contact > #name {
-    font-family: var(--PROFILE-H1-FONT);
-    font-weight: var(--FONT-WEIGHT-BOLDER);
-    font-size: 2rem;
-    padding-top: 0.8em;
-    color: var(--AUTHORS-TITLES-COLOR);
-    white-space: nowrap;
-    margin-top: 0;
-    margin-left: 45%;
-}
+    .cv-head > #name-institution-contact > #institution {
+        font-family: inherit;
+        font-weight: var(--FONT-WEIGHT-BOLD);
+        font-size: var(--FONT-SMALL);
+        color: var(--HEADINGS-INTERESTS-COLOR);
+        white-space: wrap;
+        margin-top: 0;
+        margin-left: 9%;
+        white-space: nowrap;
+    }
 
-.cv-head > #name-institution-contact > #institution {
-    font-family: inherit;
-    font-weight: var(--FONT-WEIGHT-BOLD);
-    font-size: var(--FONT-SMALL);
-    color: var(--AUTHORS-TITLES-COLOR);
-    white-space: wrap;
-    margin-top: 0;
-    margin-left: 9%;
-    white-space: nowrap;
-}
+    .cv-head > #name-institution-contact > #contact > ul {
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
 
-.cv-head > #name-institution-contact > #contact > ul {
-    list-style: none;
-    margin-left: 0;
-    margin-bottom: 1em;
-}
+    #contact > ul > li > a {
+        text-decoration: none;
+        color: var(--HEADINGS-INTERESTS-COLOR);
+        margin: 0;
+        font-size: var(--FONT-SMALL);
+    }
 
-#contact > ul > li > a {
-    text-decoration: none;
-    color: var(--AUTHORS-TITLES-COLOR);
-    margin: 0;
-    font-size: var(--FONT-SMALL);
-}
+    #contact > ul > li > a > span {
+        text-decoration: none;
+        color: var(--AUTHORS-TITLES-COLOR);
+        font-family: inherit;
+        padding-left: 1em;
+        font-size: var(--FONT-SMALL);
+    }
 
-#contact > ul > li > a > span {
-    text-decoration: none;
-    color: var(--LINKS-COLOR);
-    font-family: inherit;
-    padding-left: 1em;
-    font-size: var(--FONT-SMALL);
-}
+    .topic > .cv-outline > #summary {
+        padding: 1em;
+        padding-left: 1.5em;
+        line-height: 1.2;
+        margin-top: 0;
+        color: var(--HEADINGS-INTERESTS-COLOR);
+        font-family: inherit;
+    }
 
-.topic > .cv-outline > #summary {
-    padding: 1em;
-    padding-left: 1.5em;
-    line-height: 1.2;
-    margin-top: 0;
-    color: var(--AUTHORS-TITLES-COLOR);
-    font-family: inherit;
-}
+    #Experience {
+        margin-top: 0;
+        padding: 1em;
+        padding-left: 1.5em;
+        line-height: 1.2;
+        color: var(--HEADINGS-INTERESTS-COLOR);
+        font-family: inherit;
+    }
 
-#Experience {
-    margin-top: 0;
-    padding: 1em;
-    padding-left: 1.5em;
-    line-height: 1.2;
-    color: var(--AUTHORS-TITLES-COLOR);
-    font-family: inherit;
-}
+    #Experience > ul > li {
+        color: var(--HEADINGS-INTERESTS-COLOR);
+        line-height: 1.2;
+        font-family: inherit;
+        font-weight: var(--FONT-WEIGHT-BOLD);
+    }
 
-#Experience > ul > li {
-    color: var(--AUTHORS-TITLES-COLOR);
-    line-height: 1.2;
-    font-family: inherit;
-    font-weight: var(--FONT-WEIGHT-BOLD);
-}
+    #Experience > ul > li > a {
+        text-decoration: none;
+        color: var(--AUTHORS-TITLES-COLOR);
+    }
 
-#Experience > ul > li > a {
-    text-decoration: none;
-    color: var(--LINKS-COLOR);
-}
+    #Experience > ul > span {
+        color: var(--AUTHORS-TITLES-COLOR);
+        font-family: var(--AUTHORS-TITLES-COLOR);
+        margin-left: 0;
+    }
 
-#Experience > ul > span {
-    color: var(--LINKS-COLOR);
-    font-family: var(--LINKS-COLOR);
-    margin-left: 0;
-}
+    #Experience > ul > p {
+        padding-left: 0;
+    }
 
-#Experience > ul > p {
-    padding-left: 0;
-}
+    #Education {
+        margin-top: 0;
+        padding: 1em;
+        padding-left: 1.5em;
+        line-height: 1.2;
+        color: var(--AUTHORS-TITLES-COLOR);
+        font-family: inherit;
+    }
 
-#Education {
-    margin-top: 0;
-    padding: 1em;
-    padding-left: 1.5em;
-    line-height: 1.2;
-    color: var(--AUTHORS-TITLES-COLOR);
-    font-family: inherit;
-}
+    #Education > ul > li {
+        color: var(--AUTHORS-TITLES-COLOR);
+        line-height: 1;
+        font-family: inherit;
+        font-weight: var(--FONT-WEIGHT-BOLD);
+    }
 
-#Education > ul > li {
-    color: var(--AUTHORS-TITLES-COLOR);
-    line-height: 1;
-    font-family: inherit;
-    font-weight: var(--FONT-WEIGHT-BOLD);
-}
+    #Education > ul > li > a {
+        text-decoration: none;
+        color: var(--LINKS-COLOR);
+    }
 
-#Education > ul > li > a {
-    text-decoration: none;
-    color: var(--LINKS-COLOR);
-}
+    #Education > ul > span {
+        color: var(--LINKS-COLOR);
+        font-family: var(--MENU-FONT);
+        margin-left: 0;
+    }
 
-#Education > ul > span {
-    color: var(--LINKS-COLOR);
-    font-family: var(--MENU-FONT);
-    margin-left: 0;
-}
+    #Education > ul > p {
+        padding-left: 0;
+    }
 
-#Education > ul > p {
-    padding-left: 0;
-}
+    #Essentials {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
 
-#Essentials {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
+    #Essentials > #techstack{
+        padding: 0.5em;
+        line-height: 1.3;
+        color: var(--AUTHORS-TITLES-COLOR);
+        font-family: inherit;
+        margin-left: 0;
+    }
 
-#Essentials > #techstack{
-    padding: 0.5em;
-    line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
-    font-family: inherit;
-    margin-left: 0;
-}
+    #Essentials > #techstack > ul > li {
+        justify-content: left;
+        list-style-type: none;
+    }
 
-#Essentials > #techstack > ul > li {
-    justify-content: left;
-    list-style-type: none;
-}
+    #Essentials > #skills {
+        padding: 0.5em;
+        line-height: 1.3;
+        color: var(--AUTHORS-TITLES-COLOR);
+        font-family: inherit;
+        margin-left: 0;
+    }
 
-#Essentials > #skills {
-    padding: 0.5em;
-    line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
-    font-family: inherit;
-    margin-left: 0;
-}
+    #Essentials > #skills > ul > li {
+        justify-content: left;
+        list-style-type: none;
+    }
 
-#Essentials > #skills > ul > li {
-    justify-content: left;
-    list-style-type: none;
-}
+    #Essentials > #languages {
+        padding: 0.5em;
+        line-height: 1.3;
+        color: var(--AUTHORS-TITLES-COLOR);
+        font-family: inherit;
+        margin-left: 21.875;
+    }
 
-#Essentials > #languages {
-    padding: 0.5em;
-    line-height: 1.3;
-    color: var(--AUTHORS-TITLES-COLOR);
-    font-family: inherit;
-    margin-left: 21.875;
-}
+    #Essentials > #languages > ul > li {
+        justify-content: left;
+        list-style-type: none;
+    }
 
-#Essentials > #languages > ul > li {
-    justify-content: left;
-    list-style-type: none;
-}
-
-.off-screen-menu ul {
-    display: none;
-  }
+    .off-screen-menu ul {
+        display: none;
+    }
 
 
-/* Footer */
-#skirt {
-    display: none;
-}
+    /* Footer */
+    #skirt {
+        display: none;
+    }
 
 }
 

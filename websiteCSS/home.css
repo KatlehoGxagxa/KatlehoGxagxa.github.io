@@ -121,76 +121,65 @@ html {
 
 /* Profile Section */
 .profile {
-  margin: 0;
-  padding: 1.5em;
-  padding-left: 12em;
-  padding-bottom: 3em;
-  background-color: var(--HEADINGS-INTERESTS-COLOR);
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: auto;
-  justify-content: flex-start;
-  align-items: center;
-  line-height: 1em;
+    padding: 1.5em;
+    padding-left: 12em;
+    padding-bottom: 3em;
+    background-color: var(--PROFILE-BGC);
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    line-height: 1em;
 }
 
 .profile > figure img {
-  max-width: 15em;
-  height: auto;
-  border-style: none;
-  border-radius: 0.5em;
-  width: auto;
-  vertical-align: middle;
-  object-fit: cover;
+    max-width: 15em;
+    height: auto;
+    border-style: none;
+    border-radius: 0.5em;
+    width: auto;
 }
 
 .name-bio {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 1.5em;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile > .name-bio > h1 {
-  font-size: 3rem;    
-  font-family: var(--PROFILE-H1-FONT);
-  font-weight: 400;
-  color: var(--ICONS-COLOR);
-  white-space: nowrap;
+    font-size: 2.5rem;    
+    font-family: var(--PROFILE-H1-FONT);
+    color: var(--ICONS-COLOR);
 }
 
 .name-bio > p > span {
-  font-family: inherit;
-  font-weight: var(--FONT-WEIGHT-LIGHTER);
-  font-size: var(--FONT-LARGE);
-  text-align: center;
-  line-height: 1;
-  color: var(--ICONS-COLOR);
-  margin-left: 0.5em;
+    font-family: inherit;
+    font-weight: var(--FONT-WEIGHT-LIGHTER);
+    font-size: var(--FONT-LARGE);
+    text-align: center;
+    line-height: 1;
+    color: var(--ICONS-COLOR);
+    margin-left: 0.5em;
 }
 
 .profile > div > p > span > a {
-  text-decoration: none;
-  color: var(--LINKS-COLOR);
-  margin-left: 5em;
-  font-weight: var(--FONT-WEIGHT-BOLD);
+    text-decoration: none;
+    color: var(--LINKS-COLOR);
+    margin-left: 6em;
+    font-weight: var(--FONT-WEIGHT-BOLD);
 }
 
 #teaser {
-  font-size: var(--FONT-MEDIUM);
-  text-align: center;
-  font-weight: var(--FONT-WEIGHT-LIGHTER);
-  color: var(--ICONS-COLOR);
-  line-height: 1.4em;
+    font-size: var(--FONT-MEDIUM);
+    text-align: center;
+    font-weight: var(--FONT-WEIGHT-LIGHTER);
+    color: var(--ICONS-COLOR);
+    line-height: 1.4em;
 }
 
 #teaser > a {
-  text-decoration: none;
-  color: var(--LINKS-COLOR);
-  font-weight: var(--FONT-WEIGHT-BOLD);
+    text-decoration: none;
+    color: var(--LINKS-COLOR);
+    font-weight: var(--FONT-WEIGHT-BOLD);
 }
 
 /* News Section */

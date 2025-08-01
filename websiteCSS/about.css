@@ -75,42 +75,52 @@ html {
                                   The Navigation Bar 
 ------------------------------------------------------------------------------------------- */
 
+/* Hero Banner */
 .hero-banner {
-    background-color: var(--HERO-BGC);
-    display: flex;
-    justify-content: space-between;
+  /* margin: 0; */
+  padding: 0.01em;
+  background-color: var(--HERO-BGC);
+  display: flex;
+  justify-content: space-between;
 }
 
 #socials ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 #socials ul li {
-    padding: 0.2em;
+  padding: 0.2em;
+  width: max-content;
 }
 
 #socials ul li a {
-    margin-left: 1.5em;
-    text-decoration: none;
-    font-size: var(--FONT-LARGE);
-    color: var(--ICONS-COLOR);
+  margin-left: 1.5em;
+  text-decoration: none;
+  font-size: var(--FONT-LARGE);
+  color: var(--ICONS-COLOR);
 }
 
 #menu ul {
-    display: flex;
-    margin-right: 4em;
-    list-style-type: none;
+  display: flex;
+  margin-right: 4em;
+  list-style-type: none;
+}
+
+#menu ul li {
+  text-align: center;
+  padding: 0.2em;
+  width: max-content;
 }
 
 #menu ul li a {
-    margin-left: 1em;
-    padding: 0.2em;
-    text-decoration: none;
-    font-size: var(--FONT-MEDIUM);
-    font-weight: var(--FONT-WEIGHT-BOLD);
-    font-family: var(--MENU-FONT);
-    color: var(--ICONS-COLOR);
+  margin-left: 1em;
+  padding: 0.2em;
+  text-decoration: none;
+  font-size: var(--FONT-MEDIUM);
+  font-weight: var(--FONT-WEIGHT-BOLD);
+  font-family: var(--MENU-FONT);
+  color: var(--ICONS-COLOR);
 }
 
 

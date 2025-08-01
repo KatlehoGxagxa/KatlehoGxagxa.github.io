@@ -682,7 +682,7 @@ hr {
     
     .cv-head > #name-institution-contact > #contact > ul {
         list-style: none;
-        font-size: var(--FONT-SMALL);
+        font-size: var(--FONT-SMALLER);
         margin-left: 0;
         margin-bottom: 1em;
     }
@@ -691,7 +691,7 @@ hr {
         text-decoration: none;
         color: var(--AUTHORS-TITLES-COLOR);
         margin: 0;
-        font-size: var(--FONT-SMALLER);
+        font-size: var(--FONT-SMALL);
     }
     
     #contact > ul > li > a > span {
@@ -700,6 +700,7 @@ hr {
         font-family: inherit;
         padding-left: 1em;
         font-size: var(--FONT-SMALLER);
+        white-space: nowrap;
     }
 
     .topic > .cv-outline > #summary {
